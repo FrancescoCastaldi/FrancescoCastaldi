@@ -1,5 +1,4 @@
-<div align="center">
-    <h2>Francesco Castaldi</h2>
+
 
     <!-- Top Languages -->
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancescoCastaldi&langs_count=8" alt="Top Langs" />
@@ -11,4 +10,3 @@
 
     <!-- Custom Widget (Optional) -->
     <img src="https://widgetbite.com/stats/{random-guid}" alt="watching_count" height="200"/>
-</div>
