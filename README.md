@@ -17,15 +17,18 @@
 
 ---
 
-<!-- GitHub Stats -->
+<!-- GitHub Stats (fix version: usa API mirror affidabili) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FrancescoCastaldi&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="150" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&theme=dracula&hide_border=false" height="150" alt="top languages"/>
+  <!-- Stats principali -->
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=FrancescoCastaldi&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="150" alt="GitHub Stats"/>
+  
+  <!-- Top languages -->
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=FrancescoCastaldi&layout=compact&langs_count=8&theme=dracula&hide_border=false" height="150" alt="Top Languages"/>
 </div>
 
-<!-- Streak Stats -->
+<!-- Streak Stats (mirror stabile) -->
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=FrancescoCastaldi&theme=dracula&hide_border=false" height="180" alt="streak stats"/>
+  <img src="https://streak-stats-ruddy.vercel.app/?user=FrancescoCastaldi&theme=dracula&hide_border=false" height="180" alt="Streak Stats"/>
 </div>
 
 <!-- Trophies -->
