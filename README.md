@@ -70,13 +70,11 @@
   <a href="https://www.linkedin.com/in/francescocastaldi/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin"/>
   </a>
-  <a href="mailto:castaldi.francesco.fc@gmail.com">
+  <a href="mailto:francesco.castaldi@proton.me">
     <img src="https://img.shields.io/badge/Email-Contact-informational?logo=gmail" height="40" alt="email"/>
   </a>
 </div>
 
-<p align="center">
-  <a href="https://skyline.github.com/FrancescoCastaldi"><b>3D Skyline</b></a>
-</p>
+
 
 <!-- Contiene solo badge e grafici affidabili: stats, streak, trophy, activity graph -->
