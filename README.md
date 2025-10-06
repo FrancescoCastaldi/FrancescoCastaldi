@@ -1,4 +1,4 @@
-<!-- README.md — GitHub Profile (solo elementi stabili) -->
+<!-- README.md — GitHub Profile (versione grafica con trofei e attività) -->
 
 <div align="center">
   <h1>Francesco Castaldi</h1>
@@ -13,6 +13,29 @@
   <a href="https://github.com/FrancescoCastaldi?tab=repositories">
     <img src="https://img.shields.io/github/stars/FrancescoCastaldi?affiliations=OWNER,ORGANIZATION_MEMBER&style=for-the-badge" alt="stars"/>
   </a>
+</div>
+
+---
+
+<!-- GitHub Stats -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FrancescoCastaldi&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="150" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&theme=dracula&hide_border=false" height="150" alt="top languages"/>
+</div>
+
+<!-- Streak Stats -->
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=FrancescoCastaldi&theme=dracula&hide_border=false" height="180" alt="streak stats"/>
+</div>
+
+<!-- Trophies -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FrancescoCastaldi&theme=dracula&no-frame=true&margin-w=15" alt="trophies"/>
+</div>
+
+<!-- Activity Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancescoCastaldi&theme=dracula&hide_border=false&radius=8" alt="activity graph"/>
 </div>
 
 ---
@@ -42,36 +65,18 @@
 
 ---
 
-### Highlights
-<ul>
-  <li>
-    <a href="https://github.com/FrancescoCastaldi/TruMetraPla"><b>TruMetraPla</b></a>
-    <br/>
-    <img src="https://img.shields.io/github/stars/FrancescoCastaldi/TruMetraPla?style=flat" alt="stars"/>
-    <img src="https://img.shields.io/github/last-commit/FrancescoCastaldi/TruMetraPla" alt="last commit"/>
-    <img src="https://img.shields.io/github/languages/top/FrancescoCastaldi/TruMetraPla" alt="top language"/>
-  </li>
-  <li>
-    <a href="https://github.com/FrancescoCastaldi/EmpData3"><b>EmpData3</b></a>
-    <br/>
-    <img src="https://img.shields.io/github/stars/FrancescoCastaldi/EmpData3?style=flat" alt="stars"/>
-    <img src="https://img.shields.io/github/last-commit/FrancescoCastaldi/EmpData3" alt="last commit"/>
-    <img src="https://img.shields.io/github/languages/top/FrancescoCastaldi/EmpData3" alt="top language"/>
-  </li>
-</ul>
-
----
-
 ### Contatti
 <div align="left">
   <a href="https://www.linkedin.com/in/francescocastaldi/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin"/>
   </a>
-  <a href="mailto:francesco.castaldi@proton.me">
+  <a href="mailto:castaldi.francesco.fc@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-informational?logo=gmail" height="40" alt="email"/>
   </a>
 </div>
 
+<p align="center">
+  <a href="https://skyline.github.com/FrancescoCastaldi"><b>3D Skyline</b></a>
+</p>
 
-
-<!-- RIMOSSI: github-readme-stats, top-langs, pin-cards, activity-graph, streak, trophies -->
+<!-- Contiene solo badge e grafici affidabili: stats, streak, trophy, activity graph -->
