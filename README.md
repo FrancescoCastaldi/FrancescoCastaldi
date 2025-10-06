@@ -16,19 +16,33 @@
 </div>
 
 ---
+<!-- Sezione grafica alternativa, senza github-readme-stats -->
 
-<!-- GitHub Stats (fix version: usa API mirror affidabili) -->
+<!-- Profile Summary Cards -->
 <div align="center">
-  <!-- Stats principali -->
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=FrancescoCastaldi&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="150" alt="GitHub Stats"/>
-  
-  <!-- Top languages -->
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=FrancescoCastaldi&layout=compact&langs_count=8&theme=dracula&hide_border=false" height="150" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FrancescoCastaldi&theme=dracula" height="200" alt="profile details"/>
 </div>
 
-<!-- Streak Stats (mirror stabile) -->
 <div align="center">
-  <img src="https://streak-stats-ruddy.vercel.app/?user=FrancescoCastaldi&theme=dracula&hide_border=false" height="180" alt="Streak Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=FrancescoCastaldi&theme=dracula" height="140" alt="most commit language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=FrancescoCastaldi&theme=dracula" height="140" alt="repos per language"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=FrancescoCastaldi&theme=dracula" height="150" alt="stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=FrancescoCastaldi&theme=dracula&utcOffset=2" height="150" alt="productive time"/>
+</div>
+
+<!-- Contribution Heatmap semplice -->
+<div align="center">
+  <img src="https://ghchart.rshah.org/2e293d/FrancescoCastaldi" alt="GitHub contribution chart" />
+</div>
+
+<!-- Badges numerici affidabili -->
+<div align="center">
+  <img src="https://img.shields.io/github/followers/FrancescoCastaldi?style=for-the-badge" alt="followers"/>
+  <img src="https://img.shields.io/github/user-stars/FrancescoCastaldi?style=for-the-badge" alt="stars received"/>
+  <img src="https://img.shields.io/badge/Public%20Repos-$(echo)-informational?style=for-the-badge" alt="placeholder"/>
 </div>
 
 <!-- Trophies -->
