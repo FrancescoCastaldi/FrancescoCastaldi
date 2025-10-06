@@ -40,20 +40,22 @@
 
 <!-- Badges numerici affidabili -->
 <div align="center">
-  <img src="https://img.shields.io/github/followers/FrancescoCastaldi?style=for-the-badge" alt="followers"/>
-  <img src="https://img.shields.io/github/user-stars/FrancescoCastaldi?style=for-the-badge" alt="stars received"/>
-  <img src="https://img.shields.io/badge/Public%20Repos-$(echo)-informational?style=for-the-badge" alt="placeholder"/>
+  <!-- Numero di follower -->
+  <img src="https://img.shields.io/github/followers/FrancescoCastaldi?label=Followers&style=for-the-badge&color=blue" alt="followers"/>
+
+  <!-- Numero di stelle ricevute -->
+  <img src="https://img.shields.io/github/stars/FrancescoCastaldi?label=Stars&style=for-the-badge&color=yellow" alt="stars received"/>
+
+  <!-- Numero di repository pubblici -->
+  <img src="https://img.shields.io/badge/Public%20Repos-21-informational?style=for-the-badge&color=brightgreen" alt="public repos"/>
 </div>
+
 
 <!-- Trophies -->
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=FrancescoCastaldi&theme=dracula&no-frame=true&margin-w=15" alt="trophies"/>
 </div>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancescoCastaldi&theme=dracula&hide_border=false&radius=8" alt="activity graph"/>
-</div>
 
 ---
 
