@@ -1,6 +1,5 @@
-<!-- README.md — GitHub Profile -->
+<!-- README.md — GitHub Profile (lean, only stable widgets) -->
 
-<!-- Header + quick badges -->
 <div align="center">
   <h1>Francesco Castaldi</h1>
   <p>Computer Science Engineer · Business Consultant · Healthcare & Data</p>
@@ -18,29 +17,14 @@
 
 ---
 
-<!-- Stats row -->
+<!-- Stats row (Vercel endpoints are stable) -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FrancescoCastaldi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrancescoCastaldi&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"/>
-</div>
-
-<!-- Streak + Trophies -->
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=FrancescoCastaldi&theme=dracula&hide_border=false" height="170" alt="streak stats"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FrancescoCastaldi&theme=dracula&no-frame=true&row=1&column=7" alt="trophies"/>
-</div>
-
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancescoCastaldi&theme=dracula&radius=8&hide_border=false" alt="activity graph"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=FrancescoCastaldi&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false" height="150" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false" height="150" alt="top languages"/>
 </div>
 
 ---
 
-<!-- Tech stack -->
 ### Tech
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="java"/>
@@ -64,18 +48,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36" alt="linux"/>
 </div>
 
-<!-- Badges quick list -->
-<p>
-  <img src="https://img.shields.io/badge/Domain-Healthcare-informational?style=flat&logo=databricks" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Analytics-informational" />
-  <img src="https://img.shields.io/badge/Security-Crypto%20%26%20Privacy-informational" />
-</p>
-
 ---
 
-<!-- Highlights / pinned -->
 ### Highlights
-<!-- Sostituisci owner/repo con i tuoi repository migliori -->
 <p align="left">
   <a href="https://github.com/FrancescoCastaldi/TruMetraPla">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=FrancescoCastaldi&repo=TruMetraPla&theme=dracula" alt="TruMetraPla"/>
@@ -87,22 +62,6 @@
 
 ---
 
-<!-- Wakatime (opzionale: richiede account) -->
-<!-- Rimuovi o abilita se hai Wakatime -->
-<!--
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=FrancescoCastaldi&theme=dracula&layout=compact" height="200" alt="wakatime"/>
-</div>
--->
-
-<!-- Dev metrics (opzionale) -->
-<!--
-<div align="center">
-  <img src="https://github.com/lowlighter/metrics/blob/examples/metrics.classic.svg" alt="metrics sample"/>
-</div>
--->
-
-<!-- Contact -->
 ### Contatti
 <div align="left">
   <a href="https://www.linkedin.com/in/francescocastaldi/" target="_blank">
@@ -113,10 +72,8 @@
   </a>
 </div>
 
-<!-- Fun: GitHub Skyline (3D contribution) -->
 <p align="center">
   <a href="https://skyline.github.com/FrancescoCastaldi"><b>3D Skyline</b></a>
 </p>
 
-<!-- Footer note -->
-<sub>Tip: fixa i repo nel blocco "Highlights" per farli apparire in alto sul profilo.</sub>
+<!-- RIMOSSI: streak-stats, profile-trophy, activity-graph per instabilità/carico. -->
