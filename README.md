@@ -82,5 +82,4 @@
 </div>
 
 <div align="center">
-  <small>Made with ❤️ from Milan 🇮🇹</small>
 </div>
