@@ -1,14 +1,12 @@
-<!-- README.md — GitHub Profile (versione pulita e responsive) 🚀🚴‍♂️💻 -->
+<!-- README.md — GitHub Profile -->
 
 <div align="center">
 
-<!-- Typing SVG ridotta e responsive -->
 <img src="https://readme-typing-svg.demolab.com/?lines=Francesco%20Castaldi;Computer%20Science%20Engineer;Healthcare%20%26%20Data;Business%20Consultant%20%26%20Cycling!&font=Fira%20Code&size=24&pause=1000&center=true&duration=3000&width=500" alt="Typing animation"/>
 
-<h1>Francesco Castaldi 🚴‍♂️💻</h1>
+<h1>Francesco Castaldi</h1>
 <p><em>Computer Science Engineer · Business Consultant · Healthcare & Data</em></p>
 
-<!-- Badge principali -->
 <a href="https://komarev.com/ghpvc/?username=FrancescoCastaldi">
   <img src="https://komarev.com/ghpvc/?username=FrancescoCastaldi&style=for-the-badge" alt="Profile views"/>
 </a>&nbsp;
@@ -19,6 +17,44 @@
   <img src="https://img.shields.io/github/stars/FrancescoCastaldi?style=for-the-badge&color=yellow" alt="Stars"/>
 </a>
 
+</div>
+
+---
+
+## 📌 Featured Projects
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3>📅 Calendar Filter</h3>
+        <p><em>Apache Superset Chart Plugin</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/TypeScript-4.1-blue?style=flat-square&logo=typescript"/>&nbsp;
+          <img src="https://img.shields.io/badge/React-17-61dafb?style=flat-square&logo=react"/>&nbsp;
+          <img src="https://img.shields.io/badge/Superset-6.1.0-blue?style=flat-square&logo=apache"/>&nbsp;
+          <img src="https://img.shields.io/badge/Tests-27%2F27-brightgreen?style=flat-square"/>
+        </p>
+        <p align="left">Interactive, selectable <strong>calendar heatmap</strong> chart plugin for Apache Superset. Click dates to <strong>cross-filter</strong> your entire dashboard. Features month view, year overview, 6 color palettes, shift-click range selection, week numbers, and rich tooltips. Built with TypeScript, React 17, Emotion 11.</p>
+        <a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter">
+          <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/>
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <h3>🎨 TperTutti</h3>
+        <p><em>UX Design — TPER Website Redesign</em></p>
+        <p>
+          <img src="https://img.shields.io/badge/Double%20Diamond-Methodology-orange?style=flat-square"/>&nbsp;
+          <img src="https://img.shields.io/badge/SUS-72.5%2F100-success?style=flat-square"/>&nbsp;
+          <img src="https://img.shields.io/badge/22%20Pages-Prototype-blue?style=flat-square"/>
+        </p>
+        <p align="left">Complete <strong>User Experience redesign</strong> of the TPER website (Bologna public transport). Followed the <strong>Double Diamond</strong> methodology through 4 phases. Achieved <strong>SUS 72.5/100</strong> (+35pts) and <strong>80% task completion</strong> (+50pp). Includes innovative <strong>Trainer Mode</strong> for elderly users.</p>
+        <a href="https://github.com/FrancescoCastaldi/Esame-UUXD">
+          <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -46,7 +82,7 @@
 <div align="center">
   <img src="https://img.shields.io/github/followers/FrancescoCastaldi?label=Followers&style=for-the-badge&color=blue"/>&nbsp;
   <img src="https://img.shields.io/github/stars/FrancescoCastaldi?label=Stars&style=for-the-badge&color=yellow"/>&nbsp;
-  <img src="https://img.shields.io/badge/Public%20Repos-21-brightgreen?style=for-the-badge"/>&nbsp;
+  <img src="https://img.shields.io/badge/Public%20Repos-27-brightgreen?style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Cycling->1000km-orange?style=for-the-badge"/>
   <br><br>
   <img src="https://github-profile-trophy.vercel.app/?username=FrancescoCastaldi&theme=dracula&no-frame=true&margin-w=15&column=4" height="100" alt="Trophies"/>
@@ -57,6 +93,8 @@
 ## 🛠️ Tech Stack
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="32" alt="Java"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="32" alt="TypeScript"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="32" alt="React"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="HTML5"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32" alt="CSS3"/>&nbsp;
@@ -66,7 +104,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="32" alt="SQL Server"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="32" alt="Docker"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="32" alt="Linux"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/bicycle.svg" height="32" alt="Cycling" style="filter: hue-rotate(237deg) saturate(1);"/>
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/bicycle.svg" height="32" alt="Cycling"/>
 </div>
 
 ---
@@ -79,7 +117,4 @@
   <a href="mailto:francesco.castaldi@proton.me">
     <img src="https://img.shields.io/badge/ProtonMail-Contact-8B0078?style=for-the-badge&logo=protonmail&logoColor=white" height="35" alt="Email"/>
   </a>
-</div>
-
-<div align="center">
 </div>
