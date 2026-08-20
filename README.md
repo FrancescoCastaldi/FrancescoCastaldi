@@ -85,6 +85,28 @@
 <a href="https://github.com/FrancescoCastaldi/BenzaTracker"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+<h3>👕 Mini Jersey Studio</h3>
+<p><em>3D Cycling Jersey Customizer</em></p>
+<p>
+<img src="https://img.shields.io/badge/JavaScript-WebGL-yellow?style=flat-square&logo=javascript"/>&nbsp;
+<img src="https://img.shields.io/badge/3D-Interactive-blue?style=flat-square"/>
+</p>
+<p align="left">Interactive 3D Cycling Jersey & Shirt Customizer. Real-time SVG-to-WebGL dynamic planar texture projection, custom GLB model import, and Tech Pack production export.</p>
+<a href="https://github.com/FrancescoCastaldi/mini-jersey-studio"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
+</td>
+<td width="50%" align="center">
+<h3>🚴‍♂️ VeloMetric</h3>
+<p><em>iOS Bike Maintenance Tracker</em></p>
+<p>
+<img src="https://img.shields.io/badge/Swift-iOS-orange?style=flat-square&logo=swift"/>&nbsp;
+<img src="https://img.shields.io/badge/App-Wear%20%26%20Tear-success?style=flat-square"/>
+</p>
+<p align="left">Precision tracking for your road bike's wear and tear. Advanced iOS application built with Swift to monitor component lifespans and predict maintenance intervals.</p>
+<a href="https://github.com/FrancescoCastaldi/VeloMetric"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
+</td>
+</tr>
 </table>
 </div>
 
@@ -99,5 +121,7 @@
 [![sir-markov-chain](https://img.shields.io/badge/sir--markov--chain-Epidemiological%20model-orange?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/sir-markov-chain)
 [![TruMetraPla](https://img.shields.io/badge/TruMetraPla-Manufacturing%20KPI%20dashboard-purple?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/TruMetraPla)
 [![password-generator](https://img.shields.io/badge/password--generator-Secure%20password%20tool-red?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/password-generator)
+[![toyota-m15a-connecting-rod](https://img.shields.io/badge/toyota--m15a--connecting--rod-Mechanical%20CAD-yellow?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)
+[![Francesco.Castaldi.github.io](https://img.shields.io/badge/Francesco.Castaldi.github.io-Tech%20Forum%20Hub-black?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/Francesco.Castaldi.github.io)
 
 </div>
