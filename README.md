@@ -1,124 +1,46 @@
-<!-- README.md — GitHub Profile -->
+<!-- README.md — Francesco Castaldi GitHub Profile -->
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com/?lines=Francesco+Castaldi;Computer+Science+Engineer;Robotics+%26+Machine+Learning;Data+Engineering+%26+BI;Cycling+Enthusiast!&font=Fira+Code&size=24&pause=1000&center=true&duration=3000&width=500" alt="Typing animation"/>
 
-<h1>Francesco Castaldi</h1>
-<p><em>Computer Science Engineer · Robotics & ML · Data Engineering · Business Consultant</em></p>
+<img src="https://readme-typing-svg.demolab.com/?lines=Hi+there,+I'm+Francesco+Castaldi+👋;Computer+Science+Engineer;Machine+Learning+%26+Nowcasting+Systems;Data+Engineering+%26+Apache+Superset;Hardware+Hacking+%26+Reverse+Engineering;Automotive+%26+Kinematics+Engineering;Cycling+%26+Sports+Tech+Enthusiast!&font=Fira+Code&size=22&pause=1000&center=true&duration=3000&width=620&color=38BDF8" alt="Typing animation"/>
 
-<a href="https://komarev.com/ghpvc/?username=FrancescoCastaldi"> <img src="https://komarev.com/ghpvc/?username=FrancescoCastaldi&style=for-the-badge" alt="Profile views"/></a>&nbsp;
-<a href="https://github.com/FrancescoCastaldi?tab=followers"> <img src="https://img.shields.io/github/followers/FrancescoCastaldi?style=for-the-badge&color=brightgreen" alt="Followers"/></a>&nbsp;
-<a href="https://github.com/FrancescoCastaldi?tab=repositories"> <img src="https://img.shields.io/github/stars/FrancescoCastaldi?style=for-the-badge&color=yellow" alt="Stars"/></a>
+# 🚀 Francesco Castaldi
+**Computer Science Engineer · ML & Applied Data Science · Automotive & Mechanical Systems · Open Source Contributor**
+
+<p align="center">
+  <a href="https://francescocastaldi.it"><img src="https://img.shields.io/badge/Website-francescocastaldi.it-0284C7?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+  <a href="mailto:info@francescocastaldi.it"><img src="https://img.shields.io/badge/Email-info@francescocastaldi.it-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/FrancescoCastaldi"><img src="https://img.shields.io/badge/GitHub-FrancescoCastaldi-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://komarev.com/ghpvc/?username=FrancescoCastaldi&style=for-the-badge&color=0284C7"><img src="https://komarev.com/ghpvc/?username=FrancescoCastaldi&style=for-the-badge&color=0284C7" alt="Profile views"/></a>
+</p>
+
 </div>
 
 ---
 
-## 📌 Featured Projects
+## 🌟 Apache Superset Open Source Contributions
+
+I actively contribute to **[Apache Superset](https://github.com/apache/superset)** (Apache Software Foundation), building core database specifications, SQL parser optimizations, and REST API enhancements:
 
 <div align="center">
 <table>
 <tr>
-<td width="50%" align="center">
-<h3>🦠 SIR Markov Chain</h3>
-<p><em>Epidemiological Model Simulation</em></p>
-<p>
-<img src="https://img.shields.io/badge/Python-Jupyter-blue?style=flat-square&logo=python"/>&nbsp;
-<img src="https://img.shields.io/badge/Probabilistic%20Models-Unibo-orange?style=flat-square"/>
-</p>
-<p align="left">Discrete-time <strong>Markov chain</strong> simulation of the SIR epidemiological model. University project focusing on probabilistic modeling and statistical analysis.</p>
-<a href="https://github.com/FrancescoCastaldi/sir-markov-chain"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
+<td width="33%" align="center">
+<b>🔗 <a href="https://github.com/apache/superset/pull/43564">PR #43564</a></b><br/>
+<sub><code>fix(dashboard)</code></sub><br/>
+<p align="left">Fixed <code>401 Unauthorized</code> regression on <code>DashboardFilterStateRestApi</code>, aligning cache permission verification with command-level security.</p>
+<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
 </td>
-<td width="50%" align="center">
-<h3>📅 Calendar Filter</h3>
-<p><em>Apache Superset Chart Plugin</em></p>
-<p>
-<img src="https://img.shields.io/badge/TypeScript-4.1-blue?style=flat-square&logo=typescript"/>&nbsp;
-<img src="https://img.shields.io/badge/React-17-61dafb?style=flat-square&logo=react"/>&nbsp;
-<img src="https://img.shields.io/badge/Superset-6.1.0-blue?style=flat-square&logo=apache"/>&nbsp;
-<img src="https://img.shields.io/badge/Tests-27%2F27-brightgreen?style=flat-square"/>
-</p>
-<p align="left">Interactive, selectable <strong>calendar heatmap</strong> chart plugin for Apache Superset. Click dates to <strong>cross-filter</strong> your entire dashboard. Features month view, year overview, 6 color palettes, shift-click range selection, week numbers, and rich tooltips.</p>
-<a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
+<td width="33%" align="center">
+<b>🔗 <a href="https://github.com/apache/superset/pull/43565">PR #43565</a></b><br/>
+<sub><code>fix(sql)</code></sub><br/>
+<p align="left">Resolved SQLGlot AST comment relocation bug preventing trailing comments from corrupting optimizer hint blocks (<code>/*+ SET_VAR */</code>).</p>
+<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
 </td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<h3>👕 Mini Jersey Studio</h3>
-<p><em>3D Cycling Jersey Customizer</em></p>
-<p>
-<img src="https://img.shields.io/badge/JavaScript-WebGL-yellow?style=flat-square&logo=javascript"/>&nbsp;
-<img src="https://img.shields.io/badge/3D-Interactive-blue?style=flat-square"/>
-</p>
-<p align="left">Interactive 3D Cycling Jersey & Shirt Customizer. Real-time SVG-to-WebGL dynamic planar texture projection, custom GLB model import, and Tech Pack production export.</p>
-<a href="https://github.com/FrancescoCastaldi/mini-jersey-studio"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-<td width="50%" align="center">
-<h3>🚴‍♂️ VeloMetric</h3>
-<p><em>iOS Bike Maintenance Tracker</em></p>
-<p>
-<img src="https://img.shields.io/badge/Swift-iOS-orange?style=flat-square&logo=swift"/>&nbsp;
-<img src="https://img.shields.io/badge/App-Wear%20%26%20Tear-success?style=flat-square"/>
-</p>
-<p align="left">Precision tracking for your road bike's wear and tear. Advanced iOS application built with Swift to monitor component lifespans and predict maintenance intervals.</p>
-<a href="https://github.com/FrancescoCastaldi/VeloMetric"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<h3>🎨 TperTutti</h3>
-<p><em>UX Design — TPER Website Redesign</em></p>
-<p>
-<img src="https://img.shields.io/badge/Double%20Diamond-Methodology-orange?style=flat-square"/>&nbsp;
-<img src="https://img.shields.io/badge/SUS-72.5%2F100-success?style=flat-square"/>&nbsp;
-<img src="https://img.shields.io/badge/22%20Pages-Prototype-blue?style=flat-square"/>
-</p>
-<p align="left">Complete <strong>User Experience redesign</strong> of the TPER website (Bologna public transport). Followed the <strong>Double Diamond</strong> methodology through 4 phases. Achieved <strong>SUS 72.5/100</strong> (+35pts) and <strong>80% task completion</strong> (+50pp). Includes an innovative <strong>Trainer Mode</strong> for elderly users.</p>
-<a href="https://github.com/FrancescoCastaldi/Esame-UUXD"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-<td width="50%" align="center">
-<h3>🩺 CI Cervical LBC</h3>
-<p><em>Computational Imaging — Deblur & Denoise</em></p>
-<p>
-<img src="https://img.shields.io/badge/Python-Jupyter-blue?style=flat-square&logo=jupyter"/>&nbsp;
-<img src="https://img.shields.io/badge/UNet-DiffPIR-purple?style=flat-square"/>
-</p>
-<p align="left">Deblurring and denoising pipeline on the Mendeley LBC Cervical Cancer dataset, comparing <strong>TV regularization</strong>, <strong>UNet</strong> and <strong>DiffPIR</strong> methods for medical image restoration.</p>
-<a href="https://github.com/FrancescoCastaldi/ci-cervical-lbc"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<h3>⚙️ SQL Performance Copilot</h3>
-<p><em>SQL Query Analyzer & Optimizer</em></p>
-<p>
-<img src="https://img.shields.io/badge/SQL-EXPLAIN%20ANALYZE-blue?style=flat-square"/>&nbsp;
-<img src="https://img.shields.io/badge/Dashboard-Quality%20Scoring-success?style=flat-square"/>
-</p>
-<p align="left">Analyze, profile and optimize SQL queries with <strong>EXPLAIN ANALYZE</strong> integration, automated <strong>quality scoring</strong> and an interactive dashboard for performance insights.</p>
-<a href="https://github.com/FrancescoCastaldi/sql-performance-copilot"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-<td width="50%" align="center">
-<h3>🚴 Bike Garage</h3>
-<p><em>Desktop app for cycling gear management</em></p>
-<p>
-<img src="https://img.shields.io/badge/JavaScript-Desktop-yellow?style=flat-square&logo=javascript"/>&nbsp;
-<img src="https://img.shields.io/badge/GPX-Statistics-orange?style=flat-square"/>
-</p>
-<p align="left">Desktop app to manage bikes, components, consumables and GPX activities, with detailed statistics and maintenance tracking.</p>
-<a href="https://github.com/FrancescoCastaldi/bike-garage"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<h3>⛽ BenzaTracker</h3>
-<p><em>Fuel tracking & KPI reporting</em></p>
-<p>
-<img src="https://img.shields.io/badge/Python-CLI%2FGUI%2FWeb-blue?style=flat-square&logo=python"/>&nbsp;
-<img src="https://img.shields.io/badge/Flask-SQLite-lightgrey?style=flat-square"/>
-</p>
-<p align="left">Tracks fuel refuels, computes spending KPIs, and exports PDF reports. Available as CLI, GUI (ttkbootstrap) and Web (Flask) with JSON/SQLite persistence.</p>
-<a href="https://github.com/FrancescoCastaldi/BenzaTracker"><img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github"/></a>
-</td>
-<td width="50%" align="center">
+<td width="33%" align="center">
+<b>🔗 <a href="https://github.com/apache/superset/pull/43566">PR #43566</a></b><br/>
+<sub><code>feat(db_engine_specs)</code></sub><br/>
+<p align="left">Added full metadata specifications for all 7 missing database engines (Aurora, IBM i, ClickHouse, Databricks, Kusto, OpenSearch).</p>
+<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
 </td>
 </tr>
 </table>
@@ -126,15 +48,172 @@
 
 ---
 
-## 🛠️ Other Notable Repos
+## 🎯 Featured Projects
+
+<div align="center">
+<table>
+
+<!-- ROW 1: AI / Radar Nowcasting & Superset Matrix Grid -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🌦️ HailCast-ML</h3>
+<p align="center"><em>Real-Time Hail Tracking & Convective Nowcasting Platform</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Py--ART-Radar-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-REST-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+</p>
+<p align="left">Full-stack meteorological intelligence platform processing open-source radar sweeps (ODIM HDF5) from Protezione Civile & EUMETNET. Computes severe storm kinematics (Waldvogel POSH, MESH, VIL, SCIT Tracking) with optical flow nowcasting and interactive GIS dashboards.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/hailcast-ml"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">📊 Hierarchical Table & Matrix Grid</h3>
+<p align="center"><em>Apache Superset 6.1.0 Visualization Plugin</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Apache%20Superset-6.1.0-205493?style=flat-square&logo=apache"/>
+  <img src="https://img.shields.io/badge/Emotion-CSS-D26AC2?style=flat-square"/>
+</p>
+<p align="left">Advanced multi-dimensional Matrix Grid & Pivot Table plugin for Apache Superset with infinite recursive row & column hierarchies, aggregated rollup headers, cell heatmaps, sparklines, conditional formatting, and real-time dashboard cross-filtering.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-hierarchical-table"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+<!-- ROW 2: Hardware/IoT & Calendar Filter -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🖨️ Epson Air Resuscitator</h3>
+<p align="center"><em>Wireless Waste Ink Pad Resetter & Telemetry Suite</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-SNMP-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Reverse%20Engineering-EEPROM-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Wi--Fi-Telemetry-blue?style=flat-square"/>
+</p>
+<p align="left">Zero-cost wireless solution to bypass manufacturer end-of-life bricking on Epson EcoTank/WorkForce printers. Features SNMP OID extraction, raw byte packet reverse-engineering over Wi-Fi, automatic EEPROM waste ink counter resets, and telemetry.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/epson-air-resuscitator"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">📅 Calendar Cross-Filter Plugin</h3>
+<p align="center"><em>Apache Superset Heatmap Date Picker</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-4.1-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tests-27%2F27%20Passed-brightgreen?style=flat-square"/>
+</p>
+<p align="left">Interactive, selectable calendar heatmap chart plugin for Apache Superset. Click single dates or Shift-Click date ranges to cross-filter an entire dashboard simultaneously. Features 6 color palettes, week numbering, and rich tooltips.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+<!-- ROW 3: Automotive Engineering & 3D WebGL Studio -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🏎️ Toyota M15A Connecting Rod</h3>
+<p align="center"><em>Structural, Kinematic, Fatigue & FEM CAD Engineering</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/CAD-SolidWorks-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/FEM-Ansys%20Structural-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/ISO%20GPS-Drawings-success?style=flat-square"/>
+</p>
+<p align="left">Full mechanical engineering design of the connecting rod for the Toyota Yaris Mk4 1.5L Dynamic Force engine (M15A-FKS/FXE). Dynamic inertia calculations, Goodman-Smith fatigue criteria, FEA mesh convergence, and technical ISO GPS manufacturing tables.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">👕 Mini Jersey Studio</h3>
+<p align="center"><em>Interactive 3D WebGL Apparel Customizer</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-WebGL-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Three.js-3D-black?style=flat-square&logo=three.js"/>
+  <img src="https://img.shields.io/badge/Canvas%202D-SVG%20Projection-orange?style=flat-square"/>
+</p>
+<p align="left">Real-time 3D cycling jersey customizer with dynamic planar texture projection, custom GLB/GLTF model import, live pattern manipulation, and automated Tech Pack production export for sublimation printing.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/mini-jersey-studio"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+<!-- ROW 4: Probabilistic Models & UUXD Design -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🦠 SIR Markov Chain Simulation</h3>
+<p align="center"><em>Discrete-Time Stochastic Epidemic Modeling</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-SciPy-013243?style=flat-square&logo=numpy"/>
+  <img src="https://img.shields.io/badge/Unibo-Modelli%20Probabilistici-yellow?style=flat-square"/>
+</p>
+<p align="left">Discrete-time Markov Chain simulation of the SIR epidemiological model. Features transition probability matrix computation, Monte Carlo stochastic trajectory analysis, parameter sensitivity testing, and comparison against continuous ODE models.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/sir-markov-chain"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">🎨 TperTutti (UX Design)</h3>
+<p align="center"><em>Double Diamond Public Transport Portal Redesign</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Double%20Diamond-4%20Phases-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/SUS%20Score-72.5%2F100-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Prototype-22%20Pages-blue?style=flat-square"/>
+</p>
+<p align="left">Complete end-to-end User Experience redesign of the TPER public transport platform (Bologna). Validated with quantitative usability metrics: +35 points SUS improvement (72.5), 80% task completion, and an innovative guided Trainer Mode for elderly citizens.</p>
+<div align="center">
+  <a href="https://github.com/FrancescoCastaldi/Esame-UUXD"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+</table>
+</div>
+
+---
+
+## 🧰 Tech Stack & Tools
 
 <div align="center">
 
-[![opencode-pro-setup](https://img.shields.io/badge/opencode--pro--setup-Automated%20AI%20dev%20setup-blue?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/opencode-pro-setup)
-[![gpx-editor](https://img.shields.io/badge/gpx--editor-Browser%20GPX%20editor-green?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/gpx-editor)
-[![TruMetraPla](https://img.shields.io/badge/TruMetraPla-Manufacturing%20KPI%20dashboard-purple?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/TruMetraPla)
-[![password-generator](https://img.shields.io/badge/password--generator-Secure%20password%20tool-red?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/password-generator)
-[![toyota-m15a-connecting-rod](https://img.shields.io/badge/toyota--m15a--connecting--rod-Mechanical%20CAD-yellow?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)
-[![Francesco.Castaldi.github.io](https://img.shields.io/badge/Francesco.Castaldi.github.io-Tech%20Forum%20Hub-black?style=flat-square&logo=github)](https://github.com/FrancescoCastaldi/Francesco.Castaldi.github.io)
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | `Python`, `TypeScript`, `JavaScript (ES6+)`, `C / C++`, `Swift`, `SQL`, `Bash`, `LaTeX` |
+| **Frontend & Visualization** | `React`, `TypeScript`, `Three.js / WebGL`, `Emotion / CSS-in-JS`, `Streamlit`, `HTML5 Canvas` |
+| **Data & BI Ecosystem** | `Apache Superset`, `SQLGlot`, `PostgreSQL`, `MySQL`, `ClickHouse`, `Pandas`, `NumPy`, `SciPy` |
+| **Machine Learning & Nowcasting** | `Py-ART`, `Scikit-Learn`, `OpenCV`, `Optical Flow`, `TensorFlow / PyTorch`, `Jupyter` |
+| **Engineering & IoT** | `SolidWorks CAD`, `ANSYS FEM`, `SNMP Protocol`, `Reverse Engineering`, `Hardware Telemetry` |
+| **DevOps & Tooling** | `Git / GitHub Actions`, `Docker`, `Linux / PowerShell`, `Vite`, `Webpack`, `npm / yarn / pip` |
 
+</div>
+
+---
+
+## 📈 GitHub Activity & Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FrancescoCastaldi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancescoCastaldi&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FrancescoCastaldi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+---
+
+<div align="center">
+  <sub>Designed with precision by <b>Francesco Castaldi</b> · © 2026</sub>
 </div>
