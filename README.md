@@ -1,7 +1,7 @@
 <!-- README.md — Francesco Castaldi GitHub Profile -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Hi+there,+I'm+Francesco+Castaldi+👋;Computer+Science+Engineer;Machine+Learning+%26+Nowcasting+Systems;Data+Engineering+%26+Analytics+Systems;Hardware+Hacking+%26+Reverse+Engineering;Automotive+%26+Kinematics+Engineering;Cycling+%26+Sports+Tech+Enthusiast!&font=Fira+Code&size=22&pause=1000&center=true&duration=3000&width=620&color=38BDF8" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&height=50&lines=Hi+there%2C+I%27m+Francesco+Castaldi%21;Computer+Science+Engineer;Machine+Learning+%26+Nowcasting+Systems;Data+Engineering+%26+Analytics+Systems;Hardware+Hacking+%26+Reverse+Engineering;Automotive+%26+Kinematics+Engineering;Cycling+%26+Sports+Tech+Enthusiast%21" alt="Typing animation"/>
 
 # 🚀 Francesco Castaldi
 **Computer Science Engineer · ML & Applied Data Science · Automotive & Mechanical Systems · Open Source Contributor**
