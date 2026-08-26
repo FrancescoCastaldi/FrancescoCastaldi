@@ -1,7 +1,7 @@
 <!-- README.md — Francesco Castaldi GitHub Profile -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Hi+there,+I'm+Francesco+Castaldi+👋;Computer+Science+Engineer;Machine+Learning+%26+Nowcasting+Systems;Data+Engineering+%26+Apache+Superset;Hardware+Hacking+%26+Reverse+Engineering;Automotive+%26+Kinematics+Engineering;Cycling+%26+Sports+Tech+Enthusiast!&font=Fira+Code&size=22&pause=1000&center=true&duration=3000&width=620&color=38BDF8" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com/?lines=Hi+there,+I'm+Francesco+Castaldi+👋;Computer+Science+Engineer;Machine+Learning+%26+Nowcasting+Systems;Data+Engineering+%26+Analytics+Systems;Hardware+Hacking+%26+Reverse+Engineering;Automotive+%26+Kinematics+Engineering;Cycling+%26+Sports+Tech+Enthusiast!&font=Fira+Code&size=22&pause=1000&center=true&duration=3000&width=620&color=38BDF8" alt="Typing animation"/>
 
 # 🚀 Francesco Castaldi
 **Computer Science Engineer · ML & Applied Data Science · Automotive & Mechanical Systems · Open Source Contributor**
@@ -23,7 +23,7 @@
 <div align="center">
 <table>
 
-<!-- ROW 1: AI / Radar Nowcasting & Superset Matrix Grid -->
+<!-- ROW 1: AI / Radar Nowcasting & Sports Telemetry -->
 <tr>
 <td width="50%" valign="top">
 <h3 align="center">🌦️ HailCast-ML</h3>
@@ -41,22 +41,22 @@
 </td>
 
 <td width="50%" valign="top">
-<h3 align="center">📊 Hierarchical Table & Matrix Grid</h3>
-<p align="center"><em>Apache Superset 6.1.0 Visualization Plugin</em></p>
+<h3 align="center">🚴‍♂️ VeloMetric</h3>
+<p align="center"><em>Precision Road Bike Telemetry & Wear Tracking Platform</em></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Apache%20Superset-6.1.0-205493?style=flat-square&logo=apache"/>
-  <img src="https://img.shields.io/badge/Emotion-CSS-D26AC2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-Analytics-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Telemetry-Wear%20Modeling-success?style=flat-square"/>
 </p>
-<p align="left">Advanced multi-dimensional Matrix Grid & Pivot Table plugin for Apache Superset with infinite recursive row & column hierarchies, aggregated rollup headers, cell heatmaps, sparklines, conditional formatting, and real-time dashboard cross-filtering.</p>
+<p align="left">Advanced component wear and tear analytics platform for performance road cycling. Models drivetrain friction decay, tire degradation, chain stretch tolerances, and predictive maintenance schedules based on real ride telemetry.</p>
 <div align="center">
-  <a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-hierarchical-table"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/FrancescoCastaldi/VeloMetric"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
 </div>
 </td>
 </tr>
 
-<!-- ROW 2: Hardware/IoT & Calendar Filter -->
+<!-- ROW 2: Hardware/IoT & Industrial Analytics -->
 <tr>
 <td width="50%" valign="top">
 <h3 align="center">🖨️ Epson Air Resuscitator</h3>
@@ -73,16 +73,17 @@
 </td>
 
 <td width="50%" valign="top">
-<h3 align="center">📅 Calendar Cross-Filter Plugin</h3>
-<p align="center"><em>Apache Superset Heatmap Date Picker</em></p>
+<h3 align="center">⚙️ TruMetraPla</h3>
+<p align="center"><em>Industrial Metalworking Productivity & KPI Dashboard</em></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-4.1-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Tests-27%2F27%20Passed-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Data%20Pipeline-Excel-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/KPI-Analytics-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Manufacturing-Yield-orange?style=flat-square"/>
 </p>
-<p align="left">Interactive, selectable calendar heatmap chart plugin for Apache Superset. Click single dates or Shift-Click date ranges to cross-filter an entire dashboard simultaneously. Features 6 color palettes, week numbering, and rich tooltips.</p>
+<p align="left">Productivity intelligence engine and executive dashboard for metalworking manufacturing. Ingests complex shop-floor production spreadsheets, computes real-time worker efficiency KPIs, yield rates, and process distribution metrics.</p>
 <div align="center">
-  <a href="https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/FrancescoCastaldi/TruMetraPla"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
 </div>
 </td>
 </tr>
@@ -162,7 +163,7 @@
 | :--- | :--- |
 | **Languages** | `Python`, `TypeScript`, `JavaScript (ES6+)`, `C / C++`, `Swift`, `SQL`, `Bash`, `LaTeX` |
 | **Frontend & Visualization** | `React`, `TypeScript`, `Three.js / WebGL`, `Emotion / CSS-in-JS`, `Streamlit`, `HTML5 Canvas` |
-| **Data & BI Ecosystem** | `Apache Superset`, `SQLGlot`, `PostgreSQL`, `MySQL`, `ClickHouse`, `Pandas`, `NumPy`, `SciPy` |
+| **Data & BI Ecosystem** | `SQLGlot`, `ETL Pipelines`, `PostgreSQL`, `MySQL`, `ClickHouse`, `Pandas`, `NumPy`, `SciPy` |
 | **Machine Learning & Nowcasting** | `Py-ART`, `Scikit-Learn`, `OpenCV`, `Optical Flow`, `TensorFlow / PyTorch`, `Jupyter` |
 | **Engineering & IoT** | `SolidWorks CAD`, `ANSYS FEM`, `SNMP Protocol`, `Reverse Engineering`, `Hardware Telemetry` |
 | **DevOps & Tooling** | `Git / GitHub Actions`, `Docker`, `Linux / PowerShell`, `Vite`, `Webpack`, `npm / yarn / pip` |
