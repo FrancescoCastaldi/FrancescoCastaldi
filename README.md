@@ -17,36 +17,6 @@
 
 ---
 
-## 🌟 Apache Superset Open Source Contributions
-
-I actively contribute to **[Apache Superset](https://github.com/apache/superset)** (Apache Software Foundation), building core database specifications, SQL parser optimizations, and REST API enhancements:
-
-<div align="center">
-<table>
-<tr>
-<td width="33%" align="center">
-<b>🔗 <a href="https://github.com/apache/superset/pull/43564">PR #43564</a></b><br/>
-<sub><code>fix(dashboard)</code></sub><br/>
-<p align="left">Fixed <code>401 Unauthorized</code> regression on <code>DashboardFilterStateRestApi</code>, aligning cache permission verification with command-level security.</p>
-<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
-</td>
-<td width="33%" align="center">
-<b>🔗 <a href="https://github.com/apache/superset/pull/43565">PR #43565</a></b><br/>
-<sub><code>fix(sql)</code></sub><br/>
-<p align="left">Resolved SQLGlot AST comment relocation bug preventing trailing comments from corrupting optimizer hint blocks (<code>/*+ SET_VAR */</code>).</p>
-<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
-</td>
-<td width="33%" align="center">
-<b>🔗 <a href="https://github.com/apache/superset/pull/43566">PR #43566</a></b><br/>
-<sub><code>feat(db_engine_specs)</code></sub><br/>
-<p align="left">Added full metadata specifications for all 7 missing database engines (Aurora, IBM i, ClickHouse, Databricks, Kusto, OpenSearch).</p>
-<img src="https://img.shields.io/badge/Status-Ready%20to%20Merge-success?style=flat-square"/>
-</td>
-</tr>
-</table>
-</div>
-
----
 
 ## 🎯 Featured Projects
 
