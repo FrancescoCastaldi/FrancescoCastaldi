@@ -17,8 +17,140 @@
 
 ---
 
+## 🌐 Open Source Contributions & Collaborations
 
-## 🎯 Featured Projects
+<div align="center">
+<table>
+
+<!-- ROW 1: Evidence & Apache Superset -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">📊 evidence-dev / evidence</h3>
+<p align="center"><em>Business Intelligence as Code · Svelte & TypeScript Data Visualization</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-Data%20Viz-CC292B?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Active%20Contributor-brightgreen?style=flat-square"/>
+</p>
+<p align="left">
+  Core contributions to the next-generation BI-as-code platform:
+  <ul>
+    <li><b>i18n & Localization</b>: Architected global multi-language system, language switcher and full Italian translation (<a href="https://github.com/evidence-dev/evidence/pull/3327">#3327</a>).</li>
+    <li><b>UI & Analytics Components</b>: Built all-in-one <code>&lt;MetricCard&gt;</code> (<a href="https://github.com/evidence-dev/evidence/pull/3326">#3326</a>), <code>&lt;FilterPresets&gt;</code> & table drilldowns (<a href="https://github.com/evidence-dev/evidence/pull/3325">#3325</a>).</li>
+    <li><b>Interactivity & Defaults</b>: Implemented interactive cross-filtering (<a href="https://github.com/evidence-dev/evidence/pull/3324">#3324</a>) and contextual <code>downIsGood</code> metrics configuration (<a href="https://github.com/evidence-dev/evidence/pull/3323">#3323</a>).</li>
+  </ul>
+</p>
+<div align="center">
+  <a href="https://github.com/evidence-dev/evidence"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi"><img src="https://img.shields.io/badge/View%20PRs-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">📈 apache / superset</h3>
+<p align="center"><em>Enterprise Open-Source Data Exploration & Visualization Platform</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Apache-Software%20Foundation-D22128?style=flat-square&logo=apache&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-Flask-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Status-Active%20Contributor-brightgreen?style=flat-square"/>
+</p>
+<p align="left">
+  Contributions to Apache's flagship enterprise BI system:
+  <ul>
+    <li><b>Complete i18n Suite</b>: Full Italian translation overhaul with 100% placeholder validation (<a href="https://github.com/apache/superset/pull/43274">#43274</a>).</li>
+    <li><b>Engine Specs & SQL Optimizer</b>: Enriched database engine specs metadata (<a href="https://github.com/apache/superset/pull/43566">#43566</a>) and preserved optimizer hints in parsed SQL (<a href="https://github.com/apache/superset/pull/43565">#43565</a>).</li>
+    <li><b>Dataset & Viz Stability</b>: Default catalog resolution on file upload (<a href="https://github.com/apache/superset/pull/43586">#43586</a>) and Prophet time-grain schema validation (<a href="https://github.com/apache/superset/pull/43585">#43585</a>).</li>
+  </ul>
+</p>
+<div align="center">
+  <a href="https://github.com/apache/superset"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi"><img src="https://img.shields.io/badge/View%20PRs-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+<!-- ROW 2: Docker & Kanister -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🐳 docker / cli</h3>
+<p align="center"><em>The Official Command-Line Interface for Docker Container Engine</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Engine-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-Golang-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Shell-Zsh%20Completion-89E051?style=flat-square"/>
+</p>
+<p align="left">
+  Fixed shell completion routines for Docker CLI plugins under Zsh, resolving arithmetic expression evaluation errors during automated plugin discovery (<a href="https://github.com/docker/cli/pull/7250">PR #7250</a>).
+</p>
+<div align="center">
+  <a href="https://github.com/docker/cli"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/docker/cli/pull/7250"><img src="https://img.shields.io/badge/View%20PR-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">☸️ kanisterio / kanister</h3>
+<p align="center"><em>Application-Level Data Management & Backup for Kubernetes</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Kubernetes-Operator-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Helm-Charts-0F1689?style=flat-square&logo=helm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloud%20Native-Storage-blue?style=flat-square"/>
+</p>
+<p align="left">
+  Enhanced the Kanister operator Helm chart by introducing <code>imagePullSecrets</code> support, enabling seamless deployments in air-gapped and enterprise private registries (<a href="https://github.com/kanisterio/kanister/pull/4192">PR #4192</a>).
+</p>
+<div align="center">
+  <a href="https://github.com/kanisterio/kanister"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/kanisterio/kanister/pull/4192"><img src="https://img.shields.io/badge/View%20PR-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+<!-- ROW 3: Duckle & Claude Code -->
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🦆 slothflowlabs / duckle</h3>
+<p align="center"><em>Workspace Orchestration & Template Processing Engine</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-Runtime-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Merged-8957E5?style=flat-square"/>
+</p>
+<p align="left">
+  Engineered dynamic time offset handling in template evaluation (<a href="https://github.com/slothflowlabs/duckle/pull/276">#276</a>) and implemented inline config rollups with resilient active job crash recovery (<a href="https://github.com/slothflowlabs/duckle/pull/275">#275</a>).
+</p>
+<div align="center">
+  <a href="https://github.com/slothflowlabs/duckle"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/slothflowlabs/duckle/pulls?q=is%3Apr+author%3AFrancescoCastaldi"><img src="https://img.shields.io/badge/View%20PRs-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+
+<td width="50%" valign="top">
+<h3 align="center">🤖 anthropics / claude-code</h3>
+<p align="center"><em>Agentic Command-Line Coding Assistant & Tooling</em></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Anthropic-AI%20Tooling-D97706?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Developer%20CLI-Automation-black?style=flat-square"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+</p>
+<p align="left">
+  Contributed workflow scripts optimization, debugging automated issue triage, and resolving premature return bugs in stale issue marking routines (<a href="https://github.com/anthropics/claude-code/pull/65344">PR #65344</a>).
+</p>
+<div align="center">
+  <a href="https://github.com/anthropics/claude-code"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/anthropics/claude-code/pull/65344"><img src="https://img.shields.io/badge/View%20PR-238636?style=for-the-badge&logo=github"/></a>
+</div>
+</td>
+</tr>
+
+</table>
+</div>
+
+---
+
+## 🎯 Featured Personal Projects
 
 <div align="center">
 <table>
@@ -161,12 +293,12 @@
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | `Python`, `TypeScript`, `JavaScript (ES6+)`, `C / C++`, `Swift`, `SQL`, `Bash`, `LaTeX` |
-| **Frontend & Visualization** | `React`, `TypeScript`, `Three.js / WebGL`, `Emotion / CSS-in-JS`, `Streamlit`, `HTML5 Canvas` |
-| **Data & BI Ecosystem** | `SQLGlot`, `ETL Pipelines`, `PostgreSQL`, `MySQL`, `ClickHouse`, `Pandas`, `NumPy`, `SciPy` |
+| **Languages** | `Python`, `TypeScript`, `JavaScript (ES6+)`, `Go`, `C / C++`, `Swift`, `SQL`, `Bash`, `LaTeX` |
+| **Frontend & Visualization** | `React`, `Svelte`, `TypeScript`, `Three.js / WebGL`, `Emotion / CSS-in-JS`, `Streamlit`, `HTML5 Canvas` |
+| **Data & BI Ecosystem** | `Evidence`, `Apache Superset`, `SQLGlot`, `ETL Pipelines`, `PostgreSQL`, `MySQL`, `ClickHouse`, `Pandas`, `NumPy`, `SciPy` |
 | **Machine Learning & Nowcasting** | `Py-ART`, `Scikit-Learn`, `OpenCV`, `Optical Flow`, `TensorFlow / PyTorch`, `Jupyter` |
-| **Engineering & IoT** | `SolidWorks CAD`, `ANSYS FEM`, `SNMP Protocol`, `Reverse Engineering`, `Hardware Telemetry` |
-| **DevOps & Tooling** | `Git / GitHub Actions`, `Docker`, `Linux / PowerShell`, `Vite`, `Webpack`, `npm / yarn / pip` |
+| **Cloud Native, IoT & Systems** | `Kubernetes`, `Helm`, `Docker`, `SolidWorks CAD`, `ANSYS FEM`, `SNMP Protocol`, `Reverse Engineering` |
+| **DevOps & Tooling** | `Git / GitHub Actions`, `Linux / PowerShell`, `Vite`, `Webpack`, `npm / yarn / pip / pnpm` |
 
 </div>
 
