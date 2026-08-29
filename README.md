@@ -19,11 +19,13 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/evidence-dev/evidence"><img src="https://opengraph.githubassets.com/1/evidence-dev/evidence" width="100%" style="border-radius: 6px;"></a>
       <h4><a href="https://github.com/evidence-dev/evidence">evidence-dev / evidence</a></h4>
       <p><strong>Business Intelligence as Code - Svelte & TypeScript</strong></p>
       <p>Architected global multi-language system, language switcher, and full Italian translation. Built all-in-one MetricCard, FilterPresets, interactive cross-filtering, and contextual metrics configuration.</p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/apache/superset"><img src="https://opengraph.githubassets.com/1/apache/superset" width="100%" style="border-radius: 6px;"></a>
       <h4><a href="https://github.com/apache/superset">apache / superset</a></h4>
       <p><strong>Enterprise Data Exploration & Visualization Platform</strong></p>
       <p>Led full Italian translation overhaul with robust placeholder validation. Enriched database engine specs metadata, preserved optimizer hints in parsed SQL, improved default catalog resolution.</p>
@@ -62,14 +64,29 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/FrancescoCastaldi/mini-jersey-studio"><img src="https://opengraph.githubassets.com/1/FrancescoCastaldi/mini-jersey-studio" width="100%" style="border-radius: 6px;"></a>
+      <h4><a href="https://github.com/FrancescoCastaldi/mini-jersey-studio">Mini Jersey Studio</a></h4>
+      <p><strong>Interactive 3D WebGL Apparel Customizer</strong></p>
+      <p>Real-time 3D cycling jersey customizer with dynamic planar texture projection, custom GLB/GLTF model import, live pattern manipulation, and automated Tech Pack production export.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FrancescoCastaldi/Esame-UUXD"><img src="https://opengraph.githubassets.com/1/FrancescoCastaldi/Esame-UUXD" width="100%" style="border-radius: 6px;"></a>
+      <h4><a href="https://github.com/FrancescoCastaldi/Esame-UUXD">TperTutti (UX Design)</a></h4>
+      <p><strong>Double Diamond Public Transport Portal Redesign</strong></p>
+      <p>Complete end-to-end User Experience redesign of the TPER public transport platform (Bologna). Validated with quantitative usability metrics: +35 points SUS improvement (72.5), 80% task completion.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod"><img src="https://opengraph.githubassets.com/1/FrancescoCastaldi/toyota-m15a-connecting-rod" width="100%" style="border-radius: 6px;"></a>
+      <h4><a href="https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod">Toyota M15A Connecting Rod</a></h4>
+      <p><strong>Structural & Kinematic CAD Engineering</strong></p>
+      <p>Full mechanical engineering design of the connecting rod for the Toyota Yaris Mk4 1.5L. Dynamic inertia calculations, Goodman-Smith fatigue criteria, and FEA mesh convergence.</p>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/FrancescoCastaldi/VeloMetric">VeloMetric</a></h4>
       <p><strong>Predictive Wear Analytics for Road Cycling</strong></p>
       <p>Advanced component wear and tear analytics platform for performance road cycling. Models drivetrain friction decay, tire degradation, and predictive maintenance schedules based on real ride telemetry.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/FrancescoCastaldi/epson-air-resuscitator">Epson Air Resuscitator</a></h4>
-      <p><strong>Wireless Waste Ink Pad Resetter</strong></p>
-      <p>Zero-cost wireless solution to bypass manufacturer end-of-life bricking on Epson EcoTank/WorkForce printers. Features SNMP OID extraction and raw byte packet reverse-engineering over Wi-Fi.</p>
     </td>
   </tr>
   <tr>
@@ -79,28 +96,16 @@
       <p>Productivity intelligence engine and executive dashboard for metalworking manufacturing. Ingests complex shop-floor production spreadsheets, computes real-time worker efficiency KPIs.</p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod">Toyota M15A Connecting Rod</a></h4>
-      <p><strong>Structural & Kinematic CAD Engineering</strong></p>
-      <p>Full mechanical engineering design of the connecting rod for the Toyota Yaris Mk4 1.5L. Dynamic inertia calculations, Goodman-Smith fatigue criteria, and FEA mesh convergence.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/FrancescoCastaldi/mini-jersey-studio">Mini Jersey Studio</a></h4>
-      <p><strong>Interactive 3D WebGL Apparel Customizer</strong></p>
-      <p>Real-time 3D cycling jersey customizer with dynamic planar texture projection, custom GLB/GLTF model import, live pattern manipulation, and automated Tech Pack production export.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/FrancescoCastaldi/sir-markov-chain">SIR Markov Chain Simulation</a></h4>
-      <p><strong>Discrete-Time Stochastic Epidemic Modeling</strong></p>
-      <p>Discrete-time Markov Chain simulation of the SIR epidemiological model. Features transition probability matrix computation, Monte Carlo stochastic trajectory analysis, and parameter sensitivity testing.</p>
+      <h4><a href="https://github.com/FrancescoCastaldi/epson-air-resuscitator">Epson Air Resuscitator</a></h4>
+      <p><strong>Wireless Waste Ink Pad Resetter</strong></p>
+      <p>Zero-cost wireless solution to bypass manufacturer end-of-life bricking on Epson EcoTank/WorkForce printers. Features SNMP OID extraction and raw byte packet reverse-engineering over Wi-Fi.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" colspan="2">
-      <h4><a href="https://github.com/FrancescoCastaldi/Esame-UUXD">TperTutti (UX Design)</a></h4>
-      <p><strong>Double Diamond Public Transport Portal Redesign</strong></p>
-      <p>Complete end-to-end User Experience redesign of the TPER public transport platform (Bologna). Validated with quantitative usability metrics: +35 points SUS improvement (72.5), 80% task completion.</p>
+      <h4><a href="https://github.com/FrancescoCastaldi/sir-markov-chain">SIR Markov Chain Simulation</a></h4>
+      <p><strong>Discrete-Time Stochastic Epidemic Modeling</strong></p>
+      <p>Discrete-time Markov Chain simulation of the SIR epidemiological model. Features transition probability matrix computation, Monte Carlo stochastic trajectory analysis, and parameter sensitivity testing.</p>
     </td>
   </tr>
 </table>
