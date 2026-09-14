@@ -33,23 +33,32 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/trinodb/trino"><img src="https://opengraph.githubassets.com/1/trinodb/trino" width="100%" style="border-radius: 6px;"></a>
+      <h4><a href="https://github.com/trinodb/trino">trinodb / trino</a></h4>
+      <p><strong>Fast Distributed SQL Query Engine for Big Data & Analytics</strong></p>
+      <p>Contributed documentation accuracy enhancements and technical corrections across SQL syntax specifications (CROSS JOIN), connector configurations (Delta Lake, Iceberg), and administrative security manuals.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/docker/cli"><img src="https://opengraph.githubassets.com/1/docker/cli" width="100%" style="border-radius: 6px;"></a>
       <h4><a href="https://github.com/docker/cli">docker / cli</a></h4>
       <p><strong>Official Command-Line Interface for Docker</strong></p>
       <p>Maintained and fixed shell completion routines for Docker CLI plugins under Zsh, ensuring stable automated plugin discovery and resolving arithmetic expression evaluation errors.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/kanisterio/kanister">kanisterio / kanister</a></h4>
       <p><strong>Application-Level Data Management for Kubernetes</strong></p>
       <p>Enhanced the Kanister operator Helm chart infrastructure by introducing imagePullSecrets support, enabling secure and seamless deployments across air-gapped environments.</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/slothflowlabs/duckle">slothflowlabs / duckle</a></h4>
       <p><strong>Workspace Orchestration & Template Engine</strong></p>
       <p>Engineered dynamic time offset handling in template evaluation systems and implemented robust inline config rollups with resilient active job crash recovery for the orchestration engine.</p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top" colspan="2">
       <h4><a href="https://github.com/anthropics/claude-code">anthropics / claude-code</a></h4>
       <p><strong>Agentic Command-Line Coding Assistant</strong></p>
       <p>Contributed to workflow scripts optimization, improved automated issue triage debugging processes, and stabilized stale issue marking routines to enhance the core developer experience.</p>
@@ -120,7 +129,7 @@
 | :--- | :--- |
 | **Languages** | Python, TypeScript, JavaScript, Go, C/C++, Swift, SQL, Bash, LaTeX |
 | **Frontend & Visualization** | React, Svelte, Three.js/WebGL, Streamlit, HTML5 Canvas |
-| **Data & BI Ecosystem** | Evidence, Apache Superset, SQLGlot, PostgreSQL, ClickHouse, Pandas |
+| **Data & BI Ecosystem** | Trino, Evidence, Apache Superset, SQLGlot, PostgreSQL, ClickHouse, Pandas |
 | **Machine Learning & Nowcasting** | Scikit-Learn, OpenCV, TensorFlow/PyTorch, Jupyter |
 | **Cloud Native, IoT & Systems** | Kubernetes, Helm, Docker, SolidWorks CAD, ANSYS FEM |
 | **DevOps & Tooling** | Git, Linux, PowerShell, Vite, Webpack, npm/yarn/pip |
