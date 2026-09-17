@@ -65,7 +65,6 @@
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **[superset-plugin-chart-stratum-bar](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-bar)** | Isometric bar-chart plugin for Superset, with benchmark and delta-percentage controls | TypeScript, ECharts |
 | **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Real-time hail tracking and convective nowcasting on open radar data | TypeScript, ML |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
 | **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
