@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="26" viewBox="0 0 320 26" role="presentation">
+  <g fill="none" stroke="#3A372F" stroke-width="1">
+    <line x1="0" y1="13" x2="136" y2="13"/>
+    <line x1="184" y1="13" x2="320" y2="13"/>
+  </g>
+  <g transform="translate(160 13)">
+    <rect x="-4" y="-4" width="8" height="8" transform="rotate(45)" fill="none" stroke="#B99B6B" stroke-width="1"/>
+  </g>
+</svg>

@@ -10,7 +10,6 @@
 <div align="center">
   <a href="https://francescocastaldi.it"><img src="https://img.shields.io/badge/Website-francescocastaldi.it-C9BFA8?style=flat-square&labelColor=2B2823" alt="Website"></a>
   <a href="mailto:info@francescocastaldi.it"><img src="https://img.shields.io/badge/Email-info@francescocastaldi.it-C9BFA8?style=flat-square&labelColor=2B2823" alt="Email"></a>
-  <a href="https://github.com/FrancescoCastaldi?tab=repositories"><img src="https://img.shields.io/badge/Repositories-39%20public-C9BFA8?style=flat-square&labelColor=2B2823" alt="Repositories"></a>
 </div>
 
 <br>
@@ -26,9 +25,14 @@
   </p>
 </div>
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg">
+    <img src="assets/rule-light.svg" width="320" alt="">
+  </picture>
+</div>
 
-## I &mdash; Open Source
+### I &mdash; Open Source
 
 <sub>Where my work goes through public review. Counts link to the live pull request list for each project.</sub>
 
@@ -55,9 +59,14 @@
 
 <sub>Alongside it: an i18n system and a LanguageSelector for Evidence, dynamic time offsets in Duckle's template engine, a Zsh completion fix in the Docker CLI, and <code>imagePullSecrets</code> support in the Kanister operator chart.</sub>
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg">
+    <img src="assets/rule-light.svg" width="320" alt="">
+  </picture>
+</div>
 
-## II &mdash; Selected Work
+### II &mdash; Selected Work
 
 <sub>Public repositories, most recent first.</sub>
 
@@ -75,11 +84,16 @@
 | **[sir-markov-chain](https://github.com/FrancescoCastaldi/sir-markov-chain)** | SIR epidemic model as a discrete-time Markov chain, with Monte Carlo trajectories | Jupyter, NumPy |
 | **[gpx-editor](https://github.com/FrancescoCastaldi/gpx-editor)** | Browser-based GPX editor for power and speed traces &mdash; fully offline | JavaScript |
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg">
+    <img src="assets/rule-light.svg" width="320" alt="">
+  </picture>
+</div>
 
-## III &mdash; Toolkit
+### III &mdash; Toolkit
 
-| | |
+| Area | Tools |
 | :--- | :--- |
 | **Languages** | Python &nbsp;&middot;&nbsp; TypeScript &nbsp;&middot;&nbsp; JavaScript &nbsp;&middot;&nbsp; SQL &nbsp;&middot;&nbsp; Java &nbsp;&middot;&nbsp; C &nbsp;&middot;&nbsp; C# &nbsp;&middot;&nbsp; Swift &nbsp;&middot;&nbsp; Bash |
 | **Data & BI** | Apache Superset &nbsp;&middot;&nbsp; Trino &nbsp;&middot;&nbsp; Evidence &nbsp;&middot;&nbsp; SQLGlot &nbsp;&middot;&nbsp; PostgreSQL &nbsp;&middot;&nbsp; DuckDB &nbsp;&middot;&nbsp; Pandas |
@@ -88,9 +102,14 @@
 | **Systems & Infra** | Docker &nbsp;&middot;&nbsp; Kubernetes &nbsp;&middot;&nbsp; Helm &nbsp;&middot;&nbsp; Linux &nbsp;&middot;&nbsp; Git |
 | **Engineering** | SolidWorks &nbsp;&middot;&nbsp; ANSYS FEM &nbsp;&middot;&nbsp; LaTeX |
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg">
+    <img src="assets/rule-light.svg" width="320" alt="">
+  </picture>
+</div>
 
-## IV &mdash; Activity
+### IV &mdash; Activity
 
 <div align="center">
 
@@ -110,7 +129,12 @@
 
 </div>
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rule-dark.svg">
+    <img src="assets/rule-light.svg" width="320" alt="">
+  </picture>
+</div>
 
 <div align="center">
   <sub>Francesco Castaldi &nbsp;&middot;&nbsp; Modena, Italia &nbsp;&middot;&nbsp; <a href="https://francescocastaldi.it">francescocastaldi.it</a></sub>
