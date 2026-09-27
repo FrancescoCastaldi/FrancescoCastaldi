@@ -40,24 +40,35 @@
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [8 merged &middot; 6 in review](https://github.com/apache/superset/pulls/FrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [8 merged &middot; 7 in review](https://github.com/apache/superset/pulls/FrancescoCastaldi) |
+| **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls/FrancescoCastaldi) |
+| **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls/FrancescoCastaldi) |
 | **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [5 in review](https://github.com/evidence-dev/evidence/pulls/FrancescoCastaldi) |
+| **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged](https://github.com/trinodb/trino/pulls/FrancescoCastaldi) |
 | **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls/FrancescoCastaldi) |
 | **[docker / cli](https://github.com/docker/cli)** | Docker command-line interface | [1 merged](https://github.com/docker/cli/pulls/FrancescoCastaldi) |
-| **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 in review](https://github.com/trinodb/trino/pulls/FrancescoCastaldi) |
 | **[kanisterio / kanister](https://github.com/kanisterio/kanister)** | Data management for Kubernetes | [1 in review](https://github.com/kanisterio/kanister/pulls/FrancescoCastaldi) |
 | **[anthropics / claude-code](https://github.com/anthropics/claude-code)** | Agentic command-line coding assistant | [1 in review](https://github.com/anthropics/claude-code/pulls/FrancescoCastaldi) |
 
 <br>
 
-**Apache Superset** is where most of that work lives &mdash; query correctness, engine metadata and the Italian localization:
+**Apache Superset** is where most of that upstream work lives &mdash; query correctness, engine metadata, visual plugin sorting, and the Italian localization:
 
+- [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin (`fix/mcp-xy-chart-sort-by`)
 - [#43584](https://github.com/apache/superset/pull/43584) &nbsp;&middot;&nbsp; moved optional icons outside the label element in Explore
 - [#43565](https://github.com/apache/superset/pull/43565) &nbsp;&middot;&nbsp; preserved optimizer hints when formatting semicolon-terminated SQL
 - [#43586](https://github.com/apache/superset/pull/43586) &nbsp;&middot;&nbsp; set the default catalog on datasets created from file uploads
 - [#43274](https://github.com/apache/superset/pull/43274) &nbsp;&middot;&nbsp; brought the Italian translation to full coverage with placeholder validation
 
-<sub>Alongside it: an i18n system and a LanguageSelector for Evidence, dynamic time offsets in Duckle's template engine, a Zsh completion fix in the Docker CLI, and <code>imagePullSecrets</code> support in the Kanister operator chart.</sub>
+<sub>Alongside it:
+&middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550): fixed event time formatting (space between time and AM/PM, Issue #318) in the Microsoft Calendar plugin with complete unit test coverage.<br>
+&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754): exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
+&middot; **Evidence** ([5 in review](https://github.com/evidence-dev/evidence/pulls/FrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and interactive cross-filtering.<br>
+&middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130): corrected terminology and documentation inconsistencies.<br>
+&middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250): resolved Zsh completion arithmetic evaluation errors.<br>
+&middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192): introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
+&middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276): engineered dynamic time offsets and resilient active job crash recovery.
+</sub>
 
 <div align="center">
   <picture>
@@ -68,21 +79,31 @@
 
 ### II &mdash; Selected Work
 
-<sub>Public repositories, most recent first.</sub>
+<sub>Public repositories and engineering systems, most recent first.</sub>
 
 <br>
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
+| **[Stratum Plugins Suite](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-bar)** | High-performance Apache Superset chart plugins: universal axis break &amp; outlier pinning (v0.3.8), 3D isometric &amp; prismatic geometries, dual Y-axis, calendar cross-filtering | ECharts, React, TypeScript |
+| **[portfolio-tracker](https://github.com/FrancescoCastaldi/portfolio-tracker)** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
+| **[CheckLensRB](https://github.com/FrancescoCastaldi/CheckLensRB)** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Real-time hail tracking and convective nowcasting on open radar data | TypeScript, ML |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
-| **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
 | **[toyota-m15a-connecting-rod](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)** | Connecting-rod design for the Yaris Mk4 1.5L: inertia, Goodman-Smith fatigue, FEM convergence | Python, CAD, FEM |
 | **[VeloMetric](https://github.com/FrancescoCastaldi/VeloMetric)** | Predictive wear analytics for road bikes &mdash; drivetrain decay from ride telemetry | Swift |
 | **[TruMetraPla](https://github.com/FrancescoCastaldi/TruMetraPla)** | Productivity intelligence for metalworking shop floors, from spreadsheet to KPI dashboard | Python, Streamlit |
 | **[Esame-UUXD](https://github.com/FrancescoCastaldi/Esame-UUXD)** | TPER transport portal redesign &mdash; Double Diamond, +35 SUS points (72.5), 80% task completion | UX Research |
 | **[sir-markov-chain](https://github.com/FrancescoCastaldi/sir-markov-chain)** | SIR epidemic model as a discrete-time Markov chain, with Monte Carlo trajectories | Jupyter, NumPy |
 | **[gpx-editor](https://github.com/FrancescoCastaldi/gpx-editor)** | Browser-based GPX editor for power and speed traces &mdash; fully offline | JavaScript |
+
+<br>
+
+<sub>Specialized tooling &amp; data infrastructure:
+&middot; **Stratum Suite** includes <code>stratum-bar</code> (v0.3.8 with outlier pinning &amp; 3D isometric engine), <code>calendar-filter</code> (native dashboard cross-filter with date range broadcasting), <code>stratum-heatmap</code>, <code>hierarchical-table</code>, and <code>kpi-comparison</code>.<br>
+&middot; **Developer Swag Toolchain**: Automated outreach dispatcher with Aruba SMTPS, rate-limiting, and IMAP Sent mailbox synchronization.<br>
+&middot; **Healthcare DWH &amp; ETL Automation**: High-throughput ETL engines (Sirio / SISMART), star schema dimensional modeling, indexed view materialization, and sub-second analytical dashboard responsiveness for hospital clinical operations.
+</sub>
 
 <div align="center">
   <picture>
@@ -95,12 +116,12 @@
 
 | Area | Tools |
 | :--- | :--- |
-| **Languages** | Python &nbsp;&middot;&nbsp; TypeScript &nbsp;&middot;&nbsp; JavaScript &nbsp;&middot;&nbsp; SQL &nbsp;&middot;&nbsp; Java &nbsp;&middot;&nbsp; C &nbsp;&middot;&nbsp; C# &nbsp;&middot;&nbsp; Swift &nbsp;&middot;&nbsp; Bash |
-| **Data & BI** | Apache Superset &nbsp;&middot;&nbsp; Trino &nbsp;&middot;&nbsp; Evidence &nbsp;&middot;&nbsp; SQLGlot &nbsp;&middot;&nbsp; PostgreSQL &nbsp;&middot;&nbsp; DuckDB &nbsp;&middot;&nbsp; Pandas |
-| **Frontend** | React &nbsp;&middot;&nbsp; Svelte &nbsp;&middot;&nbsp; Three.js / WebGL &nbsp;&middot;&nbsp; ECharts &nbsp;&middot;&nbsp; Streamlit |
-| **Machine Learning** | PyTorch &nbsp;&middot;&nbsp; scikit-learn &nbsp;&middot;&nbsp; OpenCV &nbsp;&middot;&nbsp; Jupyter |
-| **Systems & Infra** | Docker &nbsp;&middot;&nbsp; Kubernetes &nbsp;&middot;&nbsp; Helm &nbsp;&middot;&nbsp; Linux &nbsp;&middot;&nbsp; Git |
-| **Engineering** | SolidWorks &nbsp;&middot;&nbsp; ANSYS FEM &nbsp;&middot;&nbsp; LaTeX |
+| **Languages** | Python &nbsp;&middot;&nbsp; TypeScript &nbsp;&middot;&nbsp; JavaScript &nbsp;&middot;&nbsp; Go &nbsp;&middot;&nbsp; Rust / WASM &nbsp;&middot;&nbsp; SQL &nbsp;&middot;&nbsp; Java &nbsp;&middot;&nbsp; C# &nbsp;&middot;&nbsp; Swift &nbsp;&middot;&nbsp; Bash |
+| **Data & BI** | Apache Superset &nbsp;&middot;&nbsp; Trino &nbsp;&middot;&nbsp; WrenAI &nbsp;&middot;&nbsp; Evidence &nbsp;&middot;&nbsp; SQLGlot &nbsp;&middot;&nbsp; PostgreSQL &nbsp;&middot;&nbsp; DuckDB &nbsp;&middot;&nbsp; SQL Server &nbsp;&middot;&nbsp; Pandas |
+| **Frontend & Viz** | React &nbsp;&middot;&nbsp; Svelte &nbsp;&middot;&nbsp; Three.js / WebGL &nbsp;&middot;&nbsp; ECharts &nbsp;&middot;&nbsp; Streamlit &nbsp;&middot;&nbsp; Tailwind CSS |
+| **AI & Machine Learning** | Google Gemini API &nbsp;&middot;&nbsp; PyTorch &nbsp;&middot;&nbsp; scikit-learn &nbsp;&middot;&nbsp; OpenCV &nbsp;&middot;&nbsp; Jupyter |
+| **Systems, Cloud & CI** | Docker &nbsp;&middot;&nbsp; Kubernetes &nbsp;&middot;&nbsp; Helm &nbsp;&middot;&nbsp; Vercel Serverless &nbsp;&middot;&nbsp; GitHub Actions &nbsp;&middot;&nbsp; Linux &nbsp;&middot;&nbsp; Git |
+| **Engineering & Kinematics** | SolidWorks &nbsp;&middot;&nbsp; ANSYS FEM &nbsp;&middot;&nbsp; Dynamic Simulation &nbsp;&middot;&nbsp; LaTeX |
 
 <div align="center">
   <picture>
