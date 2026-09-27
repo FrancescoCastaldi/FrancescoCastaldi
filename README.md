@@ -40,34 +40,34 @@
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [8 merged &middot; 7 in review](https://github.com/apache/superset/pulls/FrancescoCastaldi) |
-| **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls/FrancescoCastaldi) |
-| **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls/FrancescoCastaldi) |
-| **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [5 in review](https://github.com/evidence-dev/evidence/pulls/FrancescoCastaldi) |
-| **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged](https://github.com/trinodb/trino/pulls/FrancescoCastaldi) |
-| **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls/FrancescoCastaldi) |
-| **[docker / cli](https://github.com/docker/cli)** | Docker command-line interface | [1 merged](https://github.com/docker/cli/pulls/FrancescoCastaldi) |
-| **[kanisterio / kanister](https://github.com/kanisterio/kanister)** | Data management for Kubernetes | [1 in review](https://github.com/kanisterio/kanister/pulls/FrancescoCastaldi) |
-| **[anthropics / claude-code](https://github.com/anthropics/claude-code)** | Agentic command-line coding assistant | [1 in review](https://github.com/anthropics/claude-code/pulls/FrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [8 merged &middot; 7 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [5 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[docker / cli](https://github.com/docker/cli)** | Docker command-line interface | [1 merged](https://github.com/docker/cli/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[kanisterio / kanister](https://github.com/kanisterio/kanister)** | Data management for Kubernetes | [1 in review](https://github.com/kanisterio/kanister/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[anthropics / claude-code](https://github.com/anthropics/claude-code)** | Agentic command-line coding assistant | [1 in review](https://github.com/anthropics/claude-code/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 
 <br>
 
 **Apache Superset** is where most of that upstream work lives &mdash; query correctness, engine metadata, visual plugin sorting, and the Italian localization:
 
-- [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin (`fix/mcp-xy-chart-sort-by`)
+- [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin (`fix/mcp-xy-chart-sort-by`, all CI green)
 - [#43584](https://github.com/apache/superset/pull/43584) &nbsp;&middot;&nbsp; moved optional icons outside the label element in Explore
 - [#43565](https://github.com/apache/superset/pull/43565) &nbsp;&middot;&nbsp; preserved optimizer hints when formatting semicolon-terminated SQL
 - [#43586](https://github.com/apache/superset/pull/43586) &nbsp;&middot;&nbsp; set the default catalog on datasets created from file uploads
 - [#43274](https://github.com/apache/superset/pull/43274) &nbsp;&middot;&nbsp; brought the Italian translation to full coverage with placeholder validation
 
 <sub>Alongside it:
-&middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550): fixed event time formatting (space between time and AM/PM, Issue #318) in the Microsoft Calendar plugin with complete unit test coverage.<br>
-&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754): exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
-&middot; **Evidence** ([5 in review](https://github.com/evidence-dev/evidence/pulls/FrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and interactive cross-filtering.<br>
-&middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130): corrected terminology and documentation inconsistencies.<br>
-&middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250): resolved Zsh completion arithmetic evaluation errors.<br>
+&middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550): fixed event time formatting (space between time and AM/PM, Issue #318) in Microsoft Calendar plugin with unit tests &mdash; CodeRabbit AI review approved, CLA verified, qualifies for Contributor Mug.<br>
+&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) *(merged)* &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754): exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
+&middot; **Evidence** ([5 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and interactive cross-filtering.<br>
+&middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies.<br>
+&middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250) *(merged)*: resolved Zsh completion arithmetic evaluation errors.<br>
 &middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192): introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
-&middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276): engineered dynamic time offsets and resilient active job crash recovery.
+&middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276) *(merged)*: engineered dynamic time offsets and resilient active job crash recovery.
 </sub>
 
 <div align="center">
@@ -85,11 +85,11 @@
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **[Stratum Plugins Suite](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-bar)** | High-performance Apache Superset chart plugins: universal axis break &amp; outlier pinning (v0.3.8), 3D isometric &amp; prismatic geometries, dual Y-axis, calendar cross-filtering | ECharts, React, TypeScript |
-| **[portfolio-tracker](https://github.com/FrancescoCastaldi/portfolio-tracker)** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
-| **[CheckLensRB](https://github.com/FrancescoCastaldi/CheckLensRB)** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
-| **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Real-time hail tracking and convective nowcasting on open radar data | TypeScript, ML |
+| **Stratum Plugins Suite** &nbsp;([kpi-comparison](https://github.com/FrancescoCastaldi/superset-plugin-chart-kpi-comparison)) | High-performance Apache Superset chart plugins: universal axis break &amp; outlier pinning (v0.3.8), 3D isometric &amp; prismatic geometries, dual Y-axis, calendar cross-filtering | ECharts, React, TypeScript |
+| **portfolio-tracker** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
+| **CheckLensRB** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
+| **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
 | **[toyota-m15a-connecting-rod](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)** | Connecting-rod design for the Yaris Mk4 1.5L: inertia, Goodman-Smith fatigue, FEM convergence | Python, CAD, FEM |
 | **[VeloMetric](https://github.com/FrancescoCastaldi/VeloMetric)** | Predictive wear analytics for road bikes &mdash; drivetrain decay from ride telemetry | Swift |
 | **[TruMetraPla](https://github.com/FrancescoCastaldi/TruMetraPla)** | Productivity intelligence for metalworking shop floors, from spreadsheet to KPI dashboard | Python, Streamlit |
