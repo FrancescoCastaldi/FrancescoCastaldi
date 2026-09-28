@@ -85,7 +85,6 @@
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **Stratum Plugins Suite** &nbsp;([kpi-comparison](https://github.com/FrancescoCastaldi/superset-plugin-chart-kpi-comparison)) | High-performance Apache Superset chart plugins: universal axis break &amp; outlier pinning (v0.3.8), 3D isometric &amp; prismatic geometries, dual Y-axis, calendar cross-filtering | ECharts, React, TypeScript |
 | **portfolio-tracker** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
 | **CheckLensRB** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
