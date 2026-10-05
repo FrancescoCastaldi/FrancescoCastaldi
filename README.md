@@ -34,39 +34,58 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 6 October 2026.</sub>
 
 <br>
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [8 merged &middot; 7 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 7 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
-| **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [5 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [4 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[docker / cli](https://github.com/docker/cli)** | Docker command-line interface | [1 merged](https://github.com/docker/cli/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[questdb / mcp-server-questdb](https://github.com/questdb/mcp-server-questdb)** | Model Context Protocol server for QuestDB | [1 merged](https://github.com/questdb/mcp-server-questdb/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[kanisterio / kanister](https://github.com/kanisterio/kanister)** | Data management for Kubernetes | [1 in review](https://github.com/kanisterio/kanister/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[anthropics / claude-code](https://github.com/anthropics/claude-code)** | Agentic command-line coding assistant | [1 in review](https://github.com/anthropics/claude-code/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 
 <br>
 
-**Apache Superset** is where most of that upstream work lives &mdash; query correctness, engine metadata, visual plugin sorting, and the Italian localization:
+**Apache Superset** is where most of that upstream work lives &mdash; query correctness, engine metadata, visual plugin sorting, and the Italian localization.
 
-- [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin (`fix/mcp-xy-chart-sort-by`, all CI green)
+Open right now:
+
+- [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects
+- [#44894](https://github.com/apache/superset/pull/44894) &nbsp;&middot;&nbsp; hardened select component with robust option deduplication and new option handling
+- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved, CI green, rebase pending)*
+- [#44358](https://github.com/apache/superset/pull/44358) &nbsp;&middot;&nbsp; updates the dashboard last-modified timestamp when a chart is added *(approved, CI green)*
+- [#44355](https://github.com/apache/superset/pull/44355) &nbsp;&middot;&nbsp; enabled equality operators for boolean filters on the Databricks engine *(approved, rebase pending)*
+- [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin *(CI green)*
+- [#43697](https://github.com/apache/superset/pull/43697) &nbsp;&middot;&nbsp; hardened the guest anti-tamper check against scalar control string iteration
+
+Merged since late August:
+
+- [#43566](https://github.com/apache/superset/pull/43566) &nbsp;&middot;&nbsp; added metadata blocks to every remaining incomplete engine spec
 - [#43584](https://github.com/apache/superset/pull/43584) &nbsp;&middot;&nbsp; moved optional icons outside the label element in Explore
-- [#43565](https://github.com/apache/superset/pull/43565) &nbsp;&middot;&nbsp; preserved optimizer hints when formatting semicolon-terminated SQL
 - [#43586](https://github.com/apache/superset/pull/43586) &nbsp;&middot;&nbsp; set the default catalog on datasets created from file uploads
+- [#43585](https://github.com/apache/superset/pull/43585) &nbsp;&middot;&nbsp; restricted Prophet time grain schema validation to supported grains
+- [#43565](https://github.com/apache/superset/pull/43565) &nbsp;&middot;&nbsp; preserved optimizer hints when formatting semicolon-terminated SQL
+- [#43564](https://github.com/apache/superset/pull/43564) &nbsp;&middot;&nbsp; removed `@has_access_api` from the filter state REST API
 - [#43274](https://github.com/apache/superset/pull/43274) &nbsp;&middot;&nbsp; brought the Italian translation to full coverage with placeholder validation
 
 <sub>Alongside it:
-&middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550): fixed event time formatting (space between time and AM/PM, Issue #318) in Microsoft Calendar plugin with unit tests &mdash; CodeRabbit AI review approved, CLA verified, qualifies for Contributor Mug.<br>
-&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) *(merged)* &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754): exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
-&middot; **Evidence** ([5 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and interactive cross-filtering.<br>
+&middot; **Node.js** [#66478](https://github.com/nodejs/node/pull/66478) *(in review)*: introduced <code>unicodeLineSeparators</code> option to the core readline interface for Unicode-compliant newline delimiter processing.<br>
+&middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550) *(in review, CI green)*: fixed event time formatting (space between time and AM/PM, Issue #318) in the Microsoft Calendar plugin with unit tests &mdash; CodeRabbit AI review approved, CLA verified, qualifies for Contributor Mug.<br>
+&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) *(merged)* &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754) *(in review)*: exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
+&middot; **Evidence** ([4 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and <code>downIsGood</code> metric configuration; the interactive cross-filtering pull request has since been closed by the maintainers.<br>
+&middot; **QuestDB** [#7](https://github.com/questdb/mcp-server-questdb/pull/7) *(merged)*: documented Gemini CLI among the supported coding agents for the QuestDB MCP server.<br>
 &middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies.<br>
-&middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250) *(merged)*: resolved Zsh completion arithmetic evaluation errors.<br>
-&middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192): introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
+&middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250) *(merged)*: resolved Zsh completion arithmetic evaluation errors &mdash; two follow-up proposals on error hooks and service mount ordering were closed without merge.<br>
+&middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192) *(in review, CI green)*: introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
+&middot; **Claude Code** [#65344](https://github.com/anthropics/claude-code/pull/65344) *(in review)*: corrected a premature return in the stale-issue marking script and added a <code>--debug</code> flag to the duplicate auto-close tooling.<br>
 &middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276) *(merged)*: engineered dynamic time offsets and resilient active job crash recovery.
 </sub>
 

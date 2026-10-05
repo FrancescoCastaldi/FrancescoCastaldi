@@ -22,3 +22,14 @@ powershell -File D:/Scripts/vault/status-env.ps1   # exit 0 = UNLOCKED; exit 2 =
 - **Mai** inserire credenziali, token, chiavi API, password, ID di servizi terzi, indirizzi email privati, numeri di telefono, indirizzi fisici o qualsiasi altro identificativo personale oltre a quelli **già pubblici** nel `README.md` (nome, sito web, email di contatto pubblica, link ai profili open source).
 - Il workflow in `.github/workflows/` deve usare esclusivamente `secrets.*` di GitHub Actions: nessun valore hardcoded nei file YAML, in `_tools/update.py` o negli SVG di `assets/`.
 - Prima di ogni commit/push controllare il diff: non devono comparire file `.env*`, dump, log o output di script che contengano valori. In caso di dubbio, fermarsi e chiedere all'utente.
+
+## 🎨 Manutenzione Estetica & Aggiornamento con `profile-readme-curator`
+
+- Per qualsiasi aggiornamento o miglioramento estetico a `README.md`, seguire la skill portabile **[`profile-readme-curator`](file:///D:/.agents/skills/profile-readme-curator/SKILL.md)**.
+- Rispettare rigorosamente il canone *The Editorial Blueprint*:
+  1. Palette dual-theme sobria (bone `#E8E2D5`, sage `#9CA68D`, gold `#B99B6B`, slate `#3A372F`, deep charcoal `#2B2823`).
+  2. Titoli di sezione solo `### ` con numeri romani (es. `### I &mdash; Open Source`). MAI usare `## ` per evitare la riga grigia nativa di GitHub sotto l'intestazione.
+  3. Divisori orizzontali solo tramite l'asset SVG hairlines con motivo a rombo (`assets/rule-*.svg` a 320px). MAI usare `---` o `<hr>`.
+  4. Nessuna animazione gif o badge generico sgargiante.
+  5. Prima di committare, validare sempre con `python D:/.agents/skills/profile-readme-curator/scripts/verify_profile.py`.
+
