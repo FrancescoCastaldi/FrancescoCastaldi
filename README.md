@@ -40,7 +40,7 @@
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 11 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 10 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
@@ -60,7 +60,6 @@ Open right now:
 
 - [#45039](https://github.com/apache/superset/pull/45039) &nbsp;&middot;&nbsp; connected dashboard auto-refresh dropdown to configured intervals
 - [#45038](https://github.com/apache/superset/pull/45038) &nbsp;&middot;&nbsp; remapped native filter scopes when duplicating charts on dashboard copy
-- [#45037](https://github.com/apache/superset/pull/45037) &nbsp;&middot;&nbsp; prevented duplicated column labels in mixed overwrite and rename postprocessing
 - [#45036](https://github.com/apache/superset/pull/45036) &nbsp;&middot;&nbsp; supported custom user models during dashboard and MCP chart operations
 - [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects
 - [#44894](https://github.com/apache/superset/pull/44894) &nbsp;&middot;&nbsp; hardened select component with robust option deduplication and new option handling
