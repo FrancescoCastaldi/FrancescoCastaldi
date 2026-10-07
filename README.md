@@ -40,7 +40,7 @@
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 10 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 11 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
@@ -58,6 +58,7 @@
 
 Open right now:
 
+- [#45051](https://github.com/apache/superset/pull/45051) &nbsp;&middot;&nbsp; prevented horizontal filter bar from vanishing on cross-filter
 - [#45039](https://github.com/apache/superset/pull/45039) &nbsp;&middot;&nbsp; connected dashboard auto-refresh dropdown to configured intervals
 - [#45038](https://github.com/apache/superset/pull/45038) &nbsp;&middot;&nbsp; remapped native filter scopes when duplicating charts on dashboard copy
 - [#45036](https://github.com/apache/superset/pull/45036) &nbsp;&middot;&nbsp; supported custom user models during dashboard and MCP chart operations
