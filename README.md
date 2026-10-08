@@ -34,7 +34,7 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 7 October 2026.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 8 October 2026.</sub>
 
 <br>
 
@@ -43,7 +43,7 @@
 | **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [9 merged &middot; 11 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
-| **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [1 merged &middot; 1 in review](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [2 merged](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [4 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
@@ -83,7 +83,7 @@ Merged since late August:
 <sub>Alongside it:
 &middot; **Node.js** [#66478](https://github.com/nodejs/node/pull/66478) *(in review)*: introduced <code>unicodeLineSeparators</code> option to the core readline interface for Unicode-compliant newline delimiter processing.<br>
 &middot; **Mattermost** [#550](https://github.com/mattermost/mattermost-plugin-mscalendar/pull/550) *(in review, CI green)*: fixed event time formatting (space between time and AM/PM, Issue #318) in the Microsoft Calendar plugin with unit tests &mdash; CodeRabbit AI review approved, CLA verified, qualifies for Contributor Mug.<br>
-&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) *(merged)* &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754) *(in review)*: exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
+&middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754) *(both merged)*: exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
 &middot; **Evidence** ([4 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and <code>downIsGood</code> metric configuration; the interactive cross-filtering pull request has since been closed by the maintainers.<br>
 &middot; **QuestDB** [#7](https://github.com/questdb/mcp-server-questdb/pull/7) *(merged)*: documented Gemini CLI among the supported coding agents for the QuestDB MCP server.<br>
 &middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies.<br>
