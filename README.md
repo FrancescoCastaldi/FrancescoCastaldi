@@ -34,7 +34,7 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 8 October 2026.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 9 October 2026.</sub>
 
 <br>
 
@@ -108,21 +108,24 @@ Merged since late August:
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **portfolio-tracker** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
-| **CheckLensRB** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
+| **[sql-performance-copilot](https://github.com/FrancescoCastaldi/sql-performance-copilot)** | AI-assisted SQL query optimization, AST antipattern detection (SQLGlot), ML execution latency estimation, consensus scoring | Python, SQLGlot, ML, FastHTML |
+| **[yaris-hv-fan-optimizer](https://github.com/FrancescoCastaldi/yaris-hv-fan-optimizer)** | Native Android automotive telemetry and hybrid battery cooling fan controller (v3.3.3): real-time OBD-II stream, ECU PID polling | Kotlin, Android SDK, OBD-II |
+| **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Severe convective weather and hail prediction engine with Doppler radar feature extraction and gradient boosting | Python, XGBoost, Radar AI |
+| **[portfolio-tracker](https://github.com/FrancescoCastaldi/portfolio-tracker)** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
+| **[CheckLensRB](https://github.com/FrancescoCastaldi/CheckLensRB)** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
 | **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
 | **[toyota-m15a-connecting-rod](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)** | Connecting-rod design for the Yaris Mk4 1.5L: inertia, Goodman-Smith fatigue, FEM convergence | Python, CAD, FEM |
-| **[VeloMetric](https://github.com/FrancescoCastaldi/VeloMetric)** | Predictive wear analytics for road bikes &mdash; drivetrain decay from ride telemetry | Swift |
+| **[VeloMetric](https://github.com/FrancescoCastaldi/VeloMetric)** | Predictive wear analytics for road bikes: drivetrain decay from ride telemetry | Swift |
 | **[TruMetraPla](https://github.com/FrancescoCastaldi/TruMetraPla)** | Productivity intelligence for metalworking shop floors, from spreadsheet to KPI dashboard | Python, Streamlit |
-| **[Esame-UUXD](https://github.com/FrancescoCastaldi/Esame-UUXD)** | TPER transport portal redesign &mdash; Double Diamond, +35 SUS points (72.5), 80% task completion | UX Research |
+| **[Esame-UUXD](https://github.com/FrancescoCastaldi/Esame-UUXD)** | TPER transport portal redesign: Double Diamond, +35 SUS points (72.5), 80% task completion | UX Research |
 | **[sir-markov-chain](https://github.com/FrancescoCastaldi/sir-markov-chain)** | SIR epidemic model as a discrete-time Markov chain, with Monte Carlo trajectories | Jupyter, NumPy |
-| **[gpx-editor](https://github.com/FrancescoCastaldi/gpx-editor)** | Browser-based GPX editor for power and speed traces &mdash; fully offline | JavaScript |
+| **[gpx-editor](https://github.com/FrancescoCastaldi/gpx-editor)** | Browser-based GPX editor for power and speed traces: fully offline | JavaScript |
 
 <br>
 
 <sub>Specialized tooling &amp; data infrastructure:
-&middot; **Stratum Suite** includes <code>stratum-bar</code> (v0.3.8 with outlier pinning &amp; 3D isometric engine), <code>calendar-filter</code> (native dashboard cross-filter with date range broadcasting), <code>stratum-heatmap</code>, <code>hierarchical-table</code>, and <code>kpi-comparison</code>.<br>
+&middot; **Stratum Analytics Suite**: Custom Apache Superset plugins including [stratum-bar](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-bar) (v0.3.8 with outlier pinning &amp; 3D isometric engine), [hierarchical-table](https://github.com/FrancescoCastaldi/superset-plugin-chart-hierarchical-table) (matrix grid), [calendar-filter](https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter) (cross-filter date broadcaster), [stratum-heatmap](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-heatmap), and [kpi-comparison](https://github.com/FrancescoCastaldi/superset-plugin-chart-kpi-comparison).<br>
 &middot; **Developer Swag Toolchain**: Automated outreach dispatcher with Aruba SMTPS, rate-limiting, and IMAP Sent mailbox synchronization.<br>
 &middot; **Healthcare DWH &amp; ETL Automation**: High-throughput ETL engines (Sirio / SISMART), star schema dimensional modeling, indexed view materialization, and sub-second analytical dashboard responsiveness for hospital clinical operations.
 </sub>
