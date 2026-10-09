@@ -125,7 +125,7 @@ Merged since late August:
 <br>
 
 <sub>Specialized tooling &amp; data infrastructure:
-&middot; **Stratum Analytics Suite**: Custom Apache Superset plugins including [stratum-bar](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-bar) (v0.3.8 with outlier pinning &amp; 3D isometric engine), [hierarchical-table](https://github.com/FrancescoCastaldi/superset-plugin-chart-hierarchical-table) (matrix grid), [calendar-filter](https://github.com/FrancescoCastaldi/superset-plugin-chart-calendar-filter) (cross-filter date broadcaster), [stratum-heatmap](https://github.com/FrancescoCastaldi/superset-plugin-chart-stratum-heatmap), and [kpi-comparison](https://github.com/FrancescoCastaldi/superset-plugin-chart-kpi-comparison).<br>
+&middot; **Stratum Suite**: Custom visualization plugins for Apache Superset (<code>stratum-bar</code>, <code>hierarchical-table</code>, <code>calendar-filter</code>, <code>stratum-heatmap</code>, and <code>kpi-comparison</code>).<br>
 &middot; **Developer Swag Toolchain**: Automated outreach dispatcher with Aruba SMTPS, rate-limiting, and IMAP Sent mailbox synchronization.<br>
 &middot; **Healthcare DWH &amp; ETL Automation**: High-throughput ETL engines (Sirio / SISMART), star schema dimensional modeling, indexed view materialization, and sub-second analytical dashboard responsiveness for hospital clinical operations.
 </sub>
