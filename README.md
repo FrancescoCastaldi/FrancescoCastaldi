@@ -88,7 +88,7 @@ Merged since late August:
 &middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754) *(both merged)*: exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
 &middot; **Evidence** ([3 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and <code>downIsGood</code> metric configuration.<br>
 &middot; **QuestDB** [#7850](https://github.com/questdb/questdb/pull/7850) *(in review)*: guarded SQL integer type boundaries against out-of-range float and double casting; and [#7](https://github.com/questdb/mcp-server-questdb/pull/7) *(merged)*: documented Gemini CLI among the supported coding agents for the QuestDB MCP server.<br>
-&middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies.<br>
+&middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies; and [#31546](https://github.com/trinodb/trino/pull/31546) *(in review)*: retained Iceberg NDV statistics across row-level write operations.<br>
 &middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250) *(merged)*: resolved Zsh completion arithmetic evaluation errors &mdash; two follow-up proposals on error hooks and service mount ordering were closed without merge.<br>
 &middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192) *(in review, CI green)*: introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
 &middot; **Claude Code** [#65344](https://github.com/anthropics/claude-code/pull/65344) *(in review)*: corrected a premature return in the stale-issue marking script and added a <code>--debug</code> flag to the duplicate auto-close tooling.<br>
@@ -162,17 +162,19 @@ Merged since late August:
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=A9A396&icon_color=9CA68D&ring_color=B99B6B">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=4A463E&icon_color=6B705C&ring_color=A68A64" height="170" alt="GitHub statistics">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=A9A396&icon_color=9CA68D&ring_color=B99B6B&title_color=E8E2D5">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=4A463E&icon_color=6B705C&ring_color=A68A64&title_color=2B2823" height="175" alt="GitHub statistics">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=A9A396">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=4A463E" height="170" alt="Most used languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=true&background=00000000&border=00000000&stroke=B99B6B&ring=B99B6B&fire=B99B6B&currStreakNum=E8E2D5&sideNums=E8E2D5&currStreakLabel=9CA68D&sideLabels=9CA68D&dates=9CA68D">
+    <img src="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=true&background=00000000&border=00000000&stroke=A68A64&ring=A68A64&fire=A68A64&currStreakNum=2B2823&sideNums=2B2823&currStreakLabel=6B705C&sideLabels=6B705C&dates=6B705C" height="175" alt="GitHub streak stats">
   </picture>
 
+  <br>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=FrancescoCastaldi&hide_border=true&hide_title=true&bg_color=00000000&color=C0A57B&line=B99B6B&point=9CA68D&area=true&area_color=6B705C">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancescoCastaldi&hide_border=true&hide_title=true&bg_color=00000000&color=8A6F47&line=A68A64&point=6B705C&area=true&area_color=C9BFA8" width="880" alt="Contribution activity over the last year">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=A9A396&title_color=E8E2D5">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=4A463E&title_color=2B2823" height="175" alt="Most used languages">
   </picture>
 
 </div>
