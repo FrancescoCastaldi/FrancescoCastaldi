@@ -34,13 +34,13 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 11 October 2026.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 13 October 2026.</sub>
 
 <br>
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [10 merged &middot; 11 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [12 merged &middot; 9 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [4 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [2 merged](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
@@ -59,20 +59,20 @@
 
 Open right now:
 
+- [#45205](https://github.com/apache/superset/pull/45205) &nbsp;&middot;&nbsp; added unit test coverage for CockroachDB, MotherDuck, DynamoDB, Firebolt, Google Sheets, Synapse, and OceanBase engine specs
 - [#45186](https://github.com/apache/superset/pull/45186) &nbsp;&middot;&nbsp; widened cryptography and msgpack ranges and bumped pyarrow floor to resolve Trivy vulnerabilities (#45087)
 - [#45051](https://github.com/apache/superset/pull/45051) &nbsp;&middot;&nbsp; prevented horizontal filter bar from vanishing on cross-filter
 - [#45039](https://github.com/apache/superset/pull/45039) &nbsp;&middot;&nbsp; connected dashboard auto-refresh dropdown to configured intervals
 - [#45038](https://github.com/apache/superset/pull/45038) &nbsp;&middot;&nbsp; remapped native filter scopes when duplicating charts on dashboard copy
-- [#45036](https://github.com/apache/superset/pull/45036) &nbsp;&middot;&nbsp; supported custom user models during dashboard and MCP chart operations
-- [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects
+- [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects *(approved, CI green)*
 - [#44894](https://github.com/apache/superset/pull/44894) &nbsp;&middot;&nbsp; hardened select component with robust option deduplication and new option handling
-- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved, CI green, rebase pending)*
 - [#44358](https://github.com/apache/superset/pull/44358) &nbsp;&middot;&nbsp; updates the dashboard last-modified timestamp when a chart is added *(approved, CI green)*
-- [#44355](https://github.com/apache/superset/pull/44355) &nbsp;&middot;&nbsp; enabled equality operators for boolean filters on the Databricks engine *(approved, rebase pending)*
-- [#43697](https://github.com/apache/superset/pull/43697) &nbsp;&middot;&nbsp; hardened the guest anti-tamper check against scalar control string iteration
+- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved, CI green, rebase pending)*
 
 Merged since late August:
 
+- [#45036](https://github.com/apache/superset/pull/45036) &nbsp;&middot;&nbsp; supported custom user models during dashboard and MCP chart operations
+- [#44355](https://github.com/apache/superset/pull/44355) &nbsp;&middot;&nbsp; enabled equality operators for boolean filters on the Databricks engine
 - [#44464](https://github.com/apache/superset/pull/44464) &nbsp;&middot;&nbsp; added sorting by metrics and groupby in the MCP XY chart plugin
 - [#43566](https://github.com/apache/superset/pull/43566) &nbsp;&middot;&nbsp; added metadata blocks to every remaining incomplete engine spec
 - [#43584](https://github.com/apache/superset/pull/43584) &nbsp;&middot;&nbsp; moved optional icons outside the label element in Explore
@@ -114,6 +114,7 @@ Merged since late August:
 | **[yaris-hv-fan-optimizer](https://github.com/FrancescoCastaldi/yaris-hv-fan-optimizer)** | Native Android automotive telemetry and hybrid battery cooling fan controller (v3.3.3): real-time OBD-II stream, ECU PID polling | Kotlin, Android SDK, OBD-II |
 | **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Severe convective weather and hail prediction engine with Doppler radar feature extraction and gradient boosting | Python, XGBoost, Radar AI |
 | **[portfolio-tracker](https://github.com/FrancescoCastaldi/portfolio-tracker)** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
+| **[BenzaTracker](https://github.com/FrancescoCastaldi/BenzaTracker)** | Multi-interface fuel consumption and spending KPI tracker with CLI, desktop GUI, Flask web dashboard, and PDF reporting | Python, Flask, SQLite |
 | **[CheckLensRB](https://github.com/FrancescoCastaldi/CheckLensRB)** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
 | **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
@@ -127,7 +128,7 @@ Merged since late August:
 <br>
 
 <sub>Specialized tooling &amp; data infrastructure:
-&middot; **Stratum Suite**: Custom visualization plugins for Apache Superset (<code>stratum-bar</code>, <code>hierarchical-table</code>, <code>calendar-filter</code>, <code>stratum-heatmap</code>, and <code>kpi-comparison</code>).<br>
+&middot; **Stratum Suite**: Custom visualization plugins for Apache Superset 6.1.0 (<code>stratum-bar</code>, <code>hierarchical-table</code> v0.3.3, <code>calendar-filter</code>, <code>stratum-heatmap</code>, and <code>kpi-comparison</code>).<br>
 &middot; **Developer Swag Toolchain**: Automated outreach dispatcher with Aruba SMTPS, rate-limiting, and IMAP Sent mailbox synchronization.<br>
 &middot; **Healthcare DWH &amp; ETL Automation**: High-throughput ETL engines (Sirio / SISMART), star schema dimensional modeling, indexed view materialization, and sub-second analytical dashboard responsiveness for hospital clinical operations.
 </sub>
@@ -160,23 +161,14 @@ Merged since late August:
 ### IV &mdash; Activity
 
 <div align="center">
-
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=A9A396&icon_color=9CA68D&ring_color=B99B6B&title_color=E8E2D5">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&hide_rank=false&bg_color=00000000&text_color=4A463E&icon_color=6B705C&ring_color=A68A64&title_color=2B2823" height="175" alt="GitHub statistics">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=false&border_color=3A372F&border_radius=8&bg_color=00000000&text_color=A9A396&icon_color=9CA68D&ring_color=B99B6B&title_color=E8E2D5&card_width=437">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=FrancescoCastaldi&show_icons=true&hide_border=false&border_color=D2C9B6&border_radius=8&bg_color=00000000&text_color=4A463E&icon_color=6B705C&ring_color=A68A64&title_color=1F1D1A&card_width=437" width="437" height="195" alt="GitHub statistics">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=true&background=00000000&border=00000000&stroke=B99B6B&ring=B99B6B&fire=B99B6B&currStreakNum=E8E2D5&sideNums=E8E2D5&currStreakLabel=9CA68D&sideLabels=9CA68D&dates=9CA68D">
-    <img src="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=true&background=00000000&border=00000000&stroke=A68A64&ring=A68A64&fire=A68A64&currStreakNum=2B2823&sideNums=2B2823&currStreakLabel=6B705C&sideLabels=6B705C&dates=6B705C" height="175" alt="GitHub streak stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=false&border=3A372F&border_radius=8&background=00000000&stroke=B99B6B&ring=B99B6B&fire=B99B6B&currStreakNum=E8E2D5&sideNums=E8E2D5&currStreakLabel=9CA68D&sideLabels=9CA68D&dates=9CA68D&card_width=437">
+    <img src="https://streak-stats.demolab.com/?user=FrancescoCastaldi&hide_border=false&border=D2C9B6&border_radius=8&background=00000000&stroke=A68A64&ring=A68A64&fire=A68A64&currStreakNum=1F1D1A&sideNums=1F1D1A&currStreakLabel=6B705C&sideLabels=6B705C&dates=6B705C&card_width=437" width="437" height="195" alt="GitHub streak stats">
   </picture>
-
-  <br>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=A9A396&title_color=E8E2D5">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=FrancescoCastaldi&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=4A463E&title_color=2B2823" height="175" alt="Most used languages">
-  </picture>
-
 </div>
 
 <div align="center">
