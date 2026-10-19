@@ -7,6 +7,18 @@ Il formato e basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) 
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-10-20
+
+### Added
+- Inclusione di quattro nuovi upstream nella tabella Open Source con relativi trafiletti narrativi: `walkersutton/Cyclemetry` (5 merged: hardening del render-core, telemetria calorie con summary su attivita e UI, overlay trim brackets sulla timeline di playback, fix Svelte 5 runes con caption di accessibilita video), `iausathub/satchecker` (5 in review: conversione ECEF/ITRS, limite superiore per date oltre due settimane nel futuro, conteggi objects e satellites processed nelle metriche FOV, rimozione del parametro duplicato execution_time, documentazione della regola newest-before per TLE at epoch), `netdata/netdata` (`#24352` in review: space charting saltato per drive ottiche e read-only su Windows) e `PostHog/posthog.com` (`#21289` in review: gestione degli errori API e cleanup del loading state in `useTeam`).
+
+### Changed
+- Sincronizzazione live delle Pull Request Open Source al 20 Ottobre 2026: Mattermost passa a `1 merged · 3 in review` dopo il merge della PR `#550` (spaziatura AM/PM negli eventi calendario, Issue #318).
+- Aggiornamento delle annotazioni di review delle PR Superset: `#45038`, `#45039` e `#45051` approvate con CI verde; `#44945` e `#44358` approvate; `#43695` approvata con check CI non verdi.
+
+### Removed
+- Rimozione dei cinque repository privati dalla tabella Selected Work (`sql-performance-copilot`, `yaris-hv-fan-optimizer`, `hailcast-ml`, `portfolio-tracker`, `CheckLensRB`) per eliminare i link 404 verso i visitatori pubblici del profilo.
+
 ## [1.0.2] - 2026-10-13
 
 ### Added

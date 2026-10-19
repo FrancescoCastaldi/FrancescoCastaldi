@@ -34,7 +34,7 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 13 October 2026.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 20 October 2026.</sub>
 
 <br>
 
@@ -42,16 +42,20 @@
 | :--- | :--- | :--- |
 | **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [12 merged &middot; 9 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
-| **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [4 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [1 merged &middot; 3 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [2 merged](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[evidence-dev / evidence](https://github.com/evidence-dev/evidence)** | Business intelligence as code | [3 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[trinodb / trino](https://github.com/trinodb/trino)** | Distributed SQL query engine | [1 merged &middot; 1 in review](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[slothflowlabs / duckle](https://github.com/slothflowlabs/duckle)** | Workspace orchestration & template engine | [2 merged](https://github.com/slothflowlabs/duckle/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[docker / cli](https://github.com/docker/cli)** | Docker command-line interface | [1 merged](https://github.com/docker/cli/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[netdata / netdata](https://github.com/netdata/netdata)** | Real-time infrastructure monitoring | [1 in review](https://github.com/netdata/netdata/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[questdb / questdb](https://github.com/questdb/questdb)** | High-performance time-series database | [1 in review](https://github.com/questdb/questdb/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[questdb / mcp-server-questdb](https://github.com/questdb/mcp-server-questdb)** | Model Context Protocol server for QuestDB | [1 merged](https://github.com/questdb/mcp-server-questdb/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[kanisterio / kanister](https://github.com/kanisterio/kanister)** | Data management for Kubernetes | [1 in review](https://github.com/kanisterio/kanister/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[anthropics / claude-code](https://github.com/anthropics/claude-code)** | Agentic command-line coding assistant | [1 in review](https://github.com/anthropics/claude-code/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[iausathub / satchecker](https://github.com/iausathub/satchecker)** | IAU CPS SatHub tool for satellite position prediction | [5 in review](https://github.com/iausathub/satchecker/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[PostHog / posthog.com](https://github.com/PostHog/posthog.com)** | Official docs, website, and handbook for PostHog | [1 in review](https://github.com/PostHog/posthog.com/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[walkersutton / Cyclemetry](https://github.com/walkersutton/Cyclemetry)** | Telemetry video overlays from GPS data | [5 merged](https://github.com/walkersutton/Cyclemetry/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 
 <br>
 
@@ -61,13 +65,13 @@ Open right now:
 
 - [#45205](https://github.com/apache/superset/pull/45205) &nbsp;&middot;&nbsp; added unit test coverage for CockroachDB, MotherDuck, DynamoDB, Firebolt, Google Sheets, Synapse, and OceanBase engine specs
 - [#45186](https://github.com/apache/superset/pull/45186) &nbsp;&middot;&nbsp; widened cryptography and msgpack ranges and bumped pyarrow floor to resolve Trivy vulnerabilities (#45087)
-- [#45051](https://github.com/apache/superset/pull/45051) &nbsp;&middot;&nbsp; prevented horizontal filter bar from vanishing on cross-filter
-- [#45039](https://github.com/apache/superset/pull/45039) &nbsp;&middot;&nbsp; connected dashboard auto-refresh dropdown to configured intervals
-- [#45038](https://github.com/apache/superset/pull/45038) &nbsp;&middot;&nbsp; remapped native filter scopes when duplicating charts on dashboard copy
-- [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects *(approved, CI green)*
+- [#45051](https://github.com/apache/superset/pull/45051) &nbsp;&middot;&nbsp; prevented horizontal filter bar from vanishing on cross-filter *(approved, CI green)*
+- [#45039](https://github.com/apache/superset/pull/45039) &nbsp;&middot;&nbsp; connected dashboard auto-refresh dropdown to configured intervals *(approved, CI green)*
+- [#45038](https://github.com/apache/superset/pull/45038) &nbsp;&middot;&nbsp; remapped native filter scopes when duplicating charts on dashboard copy *(approved, CI green)*
+- [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects *(approved)*
 - [#44894](https://github.com/apache/superset/pull/44894) &nbsp;&middot;&nbsp; hardened select component with robust option deduplication and new option handling
-- [#44358](https://github.com/apache/superset/pull/44358) &nbsp;&middot;&nbsp; updates the dashboard last-modified timestamp when a chart is added *(approved, CI green)*
-- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved, CI green, rebase pending)*
+- [#44358](https://github.com/apache/superset/pull/44358) &nbsp;&middot;&nbsp; updates the dashboard last-modified timestamp when a chart is added *(approved)*
+- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved)*
 
 Merged since late August:
 
@@ -84,15 +88,19 @@ Merged since late August:
 
 <sub>Alongside it:
 &middot; **Node.js** [#66478](https://github.com/nodejs/node/pull/66478) *(in review)*: introduced <code>unicodeLineSeparators</code> option to the core readline interface for Unicode-compliant newline delimiter processing.<br>
-&middot; **Mattermost** ([4 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): resolved interactive connect button on POST (#552, Issue #316), user military time preferences in views (#553, Issue #358), token refresh and store lifecycle tests (#554, Issue #423), and event time AM/PM spacing (#550, approved, CLA verified).<br>
+&middot; **Mattermost** ([1 merged &middot; 3 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): merged event time AM/PM spacing for calendar events (#550, Issue #318); in review: interactive connect button on POST (#552, Issue #316), user time format preferences in views and notifications (#553, Issue #358), and token refresh and store lifecycle tests (#554, Issue #423).<br>
 &middot; **WrenAI** [#2753](https://github.com/Canner/WrenAI/pull/2753) &amp; [#2754](https://github.com/Canner/WrenAI/pull/2754) *(both merged)*: exposed Cube <code>orderBy</code> in the WASM TypeScript SDK (Issue #2700) and safeguarded multiline subquery wrap against trailing comment swallowing in SQL dialect generation (Issue #2733).<br>
 &middot; **Evidence** ([3 in review](https://github.com/evidence-dev/evidence/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): architected an i18n localization system with LanguageSelector, and built <code>&lt;MetricCard&gt;</code>, <code>&lt;FilterPresets&gt;</code>, and <code>downIsGood</code> metric configuration.<br>
 &middot; **QuestDB** [#7850](https://github.com/questdb/questdb/pull/7850) *(in review)*: guarded SQL integer type boundaries against out-of-range float and double casting; and [#7](https://github.com/questdb/mcp-server-questdb/pull/7) *(merged)*: documented Gemini CLI among the supported coding agents for the QuestDB MCP server.<br>
 &middot; **Trino** [#31130](https://github.com/trinodb/trino/pull/31130) *(merged)*: corrected terminology and documentation inconsistencies; and [#31546](https://github.com/trinodb/trino/pull/31546) *(in review)*: retained Iceberg NDV statistics across row-level write operations.<br>
 &middot; **Docker CLI** [#7250](https://github.com/docker/cli/pull/7250) *(merged)*: resolved Zsh completion arithmetic evaluation errors &mdash; two follow-up proposals on error hooks and service mount ordering were closed without merge.<br>
+&middot; **Netdata** [#24352](https://github.com/netdata/netdata/pull/24352) *(in review)*: skip space charting for optical and read-only drives on Windows.<br>
 &middot; **Kanister** [#4192](https://github.com/kanisterio/kanister/pull/4192) *(in review, CI green)*: introduced <code>imagePullSecrets</code> support into the operator Helm chart.<br>
 &middot; **Claude Code** [#65344](https://github.com/anthropics/claude-code/pull/65344) *(in review)*: corrected a premature return in the stale-issue marking script and added a <code>--debug</code> flag to the duplicate auto-close tooling.<br>
-&middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276) *(merged)*: engineered dynamic time offsets and resilient active job crash recovery.
+&middot; **Duckle** [#275](https://github.com/slothflowlabs/duckle/pull/275) &amp; [#276](https://github.com/slothflowlabs/duckle/pull/276) *(merged)*: engineered dynamic time offsets and resilient active job crash recovery.<br>
+&middot; **Cyclemetry** ([5 merged](https://github.com/walkersutton/Cyclemetry/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): hardened render-core template deserialization for floats and isolated scene inheritance ([#53](https://github.com/walkersutton/Cyclemetry/pull/53)), added calories telemetry with activity and UI summaries ([#55](https://github.com/walkersutton/Cyclemetry/pull/55)), overlay trim brackets on the playback timeline ([#56](https://github.com/walkersutton/Cyclemetry/pull/56)), and Svelte 5 runes reactivity fixes with video accessibility captions ([#54](https://github.com/walkersutton/Cyclemetry/pull/54)).<br>
+&middot; **SatChecker** ([5 in review](https://github.com/iausathub/satchecker/pulls?q=is%3Apr+author%3AFrancescoCastaldi)): fixed ECEF to ITRS coordinate conversion ([#267](https://github.com/iausathub/satchecker/pull/267)), bounded dates more than two weeks in the future ([#270](https://github.com/iausathub/satchecker/pull/270)), documented the newest-before record selection rule for TLEs at epoch ([#271](https://github.com/iausathub/satchecker/pull/271)), removed the duplicate execution_time parameter in FOV metrics ([#268](https://github.com/iausathub/satchecker/pull/268)), and added objects and satellites processed counts to FOV metrics ([#269](https://github.com/iausathub/satchecker/pull/269)).<br>
+&middot; **PostHog** [#21289](https://github.com/PostHog/posthog.com/pull/21289) *(in review)*: handled API errors and loading-state cleanup in the teams useTeam hook.
 </sub>
 
 <div align="center">
@@ -110,12 +118,7 @@ Merged since late August:
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
-| **[sql-performance-copilot](https://github.com/FrancescoCastaldi/sql-performance-copilot)** | AI-assisted SQL query optimization, AST antipattern detection (SQLGlot), ML execution latency estimation, consensus scoring | Python, SQLGlot, ML, FastHTML |
-| **[yaris-hv-fan-optimizer](https://github.com/FrancescoCastaldi/yaris-hv-fan-optimizer)** | Native Android automotive telemetry and hybrid battery cooling fan controller (v3.3.3): real-time OBD-II stream, ECU PID polling | Kotlin, Android SDK, OBD-II |
-| **[hailcast-ml](https://github.com/FrancescoCastaldi/hailcast-ml)** | Severe convective weather and hail prediction engine with Doppler radar feature extraction and gradient boosting | Python, XGBoost, Radar AI |
-| **[portfolio-tracker](https://github.com/FrancescoCastaldi/portfolio-tracker)** | Real-time portfolio intelligence (v1.3.2): Gemini 3.5 Flash Lite commentary, HMAC-authenticated dispatch triggers, Vercel serverless | TypeScript, Gemini AI, Vercel |
 | **[BenzaTracker](https://github.com/FrancescoCastaldi/BenzaTracker)** | Multi-interface fuel consumption and spending KPI tracker with CLI, desktop GUI, Flask web dashboard, and PDF reporting | Python, Flask, SQLite |
-| **[CheckLensRB](https://github.com/FrancescoCastaldi/CheckLensRB)** | Multivariate tracking service (v1.2.0) with serverless edge API, dynamic status routing, and automated parcel monitoring | TypeScript, Serverless |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
 | **[ci-cervical-lbc](https://github.com/FrancescoCastaldi/ci-cervical-lbc)** | Computational imaging on cervical LBC slides: total-variation vs. U-Net vs. diffusion | Jupyter, PyTorch |
 | **[toyota-m15a-connecting-rod](https://github.com/FrancescoCastaldi/toyota-m15a-connecting-rod)** | Connecting-rod design for the Yaris Mk4 1.5L: inertia, Goodman-Smith fatigue, FEM convergence | Python, CAD, FEM |
