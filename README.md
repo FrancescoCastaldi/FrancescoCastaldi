@@ -34,13 +34,13 @@
 
 ### I &mdash; Open Source
 
-<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 24 October 2026.</sub>
+<sub>Where my work goes through public review. Counts link to the live pull request list for each project. Status as of 28 October 2026.</sub>
 
 <br>
 
 | Project | Domain | My pull requests |
 | :--- | :--- | :--- |
-| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [16 merged &middot; 5 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
+| **[apache / superset](https://github.com/apache/superset)** | Enterprise data exploration & visualization | [16 merged &middot; 7 in review](https://github.com/apache/superset/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[nodejs / node](https://github.com/nodejs/node)** | JavaScript runtime built on Chrome's V8 engine | [1 in review](https://github.com/nodejs/node/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[mattermost / mattermost-plugin-mscalendar](https://github.com/mattermost/mattermost-plugin-mscalendar)** | Microsoft 365 calendar integration | [2 merged &middot; 2 in review](https://github.com/mattermost/mattermost-plugin-mscalendar/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
 | **[Canner / WrenAI](https://github.com/Canner/WrenAI)** | Conversational GenAI agent for Text-to-SQL | [2 merged](https://github.com/Canner/WrenAI/pulls?q=is%3Apr+author%3AFrancescoCastaldi) |
@@ -63,11 +63,13 @@
 
 Open right now:
 
+- [#45822](https://github.com/apache/superset/pull/45822) &nbsp;&middot;&nbsp; returned HTTP 400 instead of 500 on malformed time ranges in secondary temporal filters (#45459)
+- [#45820](https://github.com/apache/superset/pull/45820) &nbsp;&middot;&nbsp; enabled LargeBinary encryption and decryption in EncryptedType for extension storage (#45787)
 - [#45205](https://github.com/apache/superset/pull/45205) &nbsp;&middot;&nbsp; added unit test coverage for CockroachDB, MotherDuck, DynamoDB, Firebolt, Google Sheets, Synapse, and OceanBase engine specs
-- [#45186](https://github.com/apache/superset/pull/45186) &nbsp;&middot;&nbsp; widened cryptography and msgpack ranges and bumped pyarrow floor to resolve Trivy vulnerabilities (#45087)
+- [#45186](https://github.com/apache/superset/pull/45186) &nbsp;&middot;&nbsp; widened cryptography and msgpack ranges and bumped pyarrow floor to resolve Trivy vulnerabilities (#45087) *(approved)*
 - [#44945](https://github.com/apache/superset/pull/44945) &nbsp;&middot;&nbsp; prevented duplicate onChange calls in RadioButtonControl to fix form submission side-effects *(approved)*
 - [#44894](https://github.com/apache/superset/pull/44894) &nbsp;&middot;&nbsp; hardened select component with robust option deduplication and new option handling
-- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed the metadata definitions for the remaining database engine specs and added the matching unit test suites *(approved)*
+- [#43695](https://github.com/apache/superset/pull/43695) &nbsp;&middot;&nbsp; completed metadata definitions for remaining database engine specs and added unit test suites *(approved)*
 
 Merged since late August:
 
@@ -118,6 +120,7 @@ Merged since late August:
 
 | Project | What it is | Built with |
 | :--- | :--- | :--- |
+| **[domestique](https://github.com/FrancescoCastaldi/domestique)** | Adaptive cycling training planner: 7 science-grounded guardrails closing the loop between plan and execution across 4,232 workouts | Python, Streamlit |
 | **[fuel-ledger-android](https://github.com/FrancescoCastaldi/fuel-ledger-android)** | Offline Android vehicle logbook for fuel, running costs and maintenance reminders with an amber instrument cluster | Kotlin, Jetpack Compose |
 | **[BenzaTracker](https://github.com/FrancescoCastaldi/BenzaTracker)** | Multi-interface fuel consumption and spending KPI tracker with CLI, desktop GUI, Flask web dashboard, and PDF reporting | Python, Flask, SQLite |
 | **[mini-jersey-studio](https://github.com/FrancescoCastaldi/mini-jersey-studio)** | 3D cycling jersey customizer: SVG-to-WebGL planar projection, GLB import, tech-pack export | Three.js, WebGL |
